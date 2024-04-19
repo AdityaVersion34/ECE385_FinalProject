@@ -58,3 +58,5 @@ platform config -updatehw {C:/Users/Aditya/ece385/lab6_2/mb_usb_hdmi_top.xsa}
 platform clean
 platform generate
 platform generate
+platform clean
+platform generate

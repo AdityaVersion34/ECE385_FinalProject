@@ -17,6 +17,7 @@
   <File Type="BITSTR-MMI" Name="mb_usb_hdmi_top.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="mb_usb_hdmi_top_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-SYSDEF" Name="mb_usb_hdmi_top.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mb_usb_hdmi_top_methodology_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="mb_usb_hdmi_top.ltx"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
@@ -25,8 +26,11 @@
   <File Type="PLACE-IO" Name="mb_usb_hdmi_top_io_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="mb_usb_hdmi_top_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="mb_usb_hdmi_top_utilization_placed.pb"/>
+  <File Type="ROUTE-RQS" Name="mb_usb_hdmi_top_routed.rqs"/>
   <File Type="PLACE-CTRL" Name="mb_usb_hdmi_top_control_sets_placed.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="mb_usb_hdmi_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <File Type="ROUTE-DRC" Name="mb_usb_hdmi_top_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="mb_usb_hdmi_top_drc_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="mb_usb_hdmi_top_power_routed.rpx"/>
@@ -48,7 +52,6 @@
   <File Type="PHYSOPT-DCP" Name="mb_usb_hdmi_top_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="mb_usb_hdmi_top_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mb_usb_hdmi_top_postroute_physopt_bb.dcp"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mb_usb_hdmi_top_methodology_drc_routed.pb"/>
   <File Type="ROUTE-DRC-RPX" Name="mb_usb_hdmi_top_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mb_usb_hdmi_top_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="mb_usb_hdmi_top.pdi"/>
@@ -57,10 +60,7 @@
   <File Type="RNPI_FILE" Name="mb_usb_hdmi_top.rnpi"/>
   <File Type="NPI_FILE" Name="mb_usb_hdmi_top.npi"/>
   <File Type="RBD_FILE" Name="mb_usb_hdmi_top.rbd"/>
-  <File Type="ROUTE-RQS" Name="mb_usb_hdmi_top_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="mb_usb_hdmi_top_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/mb_block/mb_block.bd">
@@ -185,17 +185,17 @@
     <Step Id="write_bitstream"/>
     <Step Id="write_device_image"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_uartlite_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_rst_clk_wiz_1_100M_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb_block_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_uartlite_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb_block_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_clk_wiz_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_mdm_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_ilmb_bram_if_cntlr_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb_block_microblaze_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_gpio_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb_block_microblaze_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_dlmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_lmb_bram_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_microblaze_0_axi_intc_0"/>

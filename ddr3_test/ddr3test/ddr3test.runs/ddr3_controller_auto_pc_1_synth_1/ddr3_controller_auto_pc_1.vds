@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Apr 19 04:30:48 2024
+# Process ID: 42840
+# Current directory: C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/ddr3_controller_auto_pc_1_synth_1
+# Command line: vivado.exe -log ddr3_controller_auto_pc_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ddr3_controller_auto_pc_1.tcl
+# Log file: C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/ddr3_controller_auto_pc_1_synth_1/ddr3_controller_auto_pc_1.vds
+# Journal file: C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/ddr3_controller_auto_pc_1_synth_1\vivado.jou
+# Running On: LAPTOP-PDE9G6A6, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 4, Host memory: 17044 MB
+#-----------------------------------------------------------
+source ddr3_controller_auto_pc_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 372.945 ; gain = 64.590
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ddr3_controller_auto_pc_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 51446dc87ad820ec to dir: C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/ddr3_controller_auto_pc_1_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.cache/ip/2022.2/5/1/51446dc87ad820ec/ddr3_controller_auto_pc_2.dcp to C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/ddr3_controller_auto_pc_1_synth_1/ddr3_controller_auto_pc_1.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.cache/ip/2022.2/5/1/51446dc87ad820ec/ddr3_controller_auto_pc_2_sim_netlist.v to C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/ddr3_controller_auto_pc_1_synth_1/ddr3_controller_auto_pc_1_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.cache/ip/2022.2/5/1/51446dc87ad820ec/ddr3_controller_auto_pc_2_sim_netlist.vhdl to C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/ddr3_controller_auto_pc_1_synth_1/ddr3_controller_auto_pc_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.cache/ip/2022.2/5/1/51446dc87ad820ec/ddr3_controller_auto_pc_2_stub.v to C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/ddr3_controller_auto_pc_1_synth_1/ddr3_controller_auto_pc_1_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.cache/ip/2022.2/5/1/51446dc87ad820ec/ddr3_controller_auto_pc_2_stub.vhdl to C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/ddr3_controller_auto_pc_1_synth_1/ddr3_controller_auto_pc_1_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP ddr3_controller_auto_pc_1, cache-ID = 51446dc87ad820ec.
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 19 04:30:59 2024...
