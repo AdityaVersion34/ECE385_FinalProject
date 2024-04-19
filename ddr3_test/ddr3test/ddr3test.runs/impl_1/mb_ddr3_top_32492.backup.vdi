@@ -1,0 +1,823 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Apr 19 04:41:23 2024
+# Process ID: 32492
+# Current directory: C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1
+# Command line: vivado.exe -log mb_ddr3_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mb_ddr3_top.tcl -notrace
+# Log file: C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1/mb_ddr3_top.vdi
+# Journal file: C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1\vivado.jou
+# Running On: LAPTOP-PDE9G6A6, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 4, Host memory: 17044 MB
+#-----------------------------------------------------------
+source mb_ddr3_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 372.027 ; gain = 64.293
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+Command: link_design -top mb_ddr3_top -part xc7s50csga324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_axi_uartlite_0_0/ddr3_controller_axi_uartlite_0_0.dcp' for cell 'mb_ddr3_i/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_mdm_1_0/ddr3_controller_mdm_1_0.dcp' for cell 'mb_ddr3_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_microblaze_0_0/ddr3_controller_microblaze_0_0.dcp' for cell 'mb_ddr3_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_microblaze_0_axi_intc_0/ddr3_controller_microblaze_0_axi_intc_0.dcp' for cell 'mb_ddr3_i/microblaze_0_axi_intc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_mig_7series_0_1/ddr3_controller_mig_7series_0_1.dcp' for cell 'mb_ddr3_i/mig_7series_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_rst_mig_7series_0_83M_0/ddr3_controller_rst_mig_7series_0_83M_0.dcp' for cell 'mb_ddr3_i/rst_mig_7series_0_83M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_axi_timer_0_0/ddr3_controller_axi_timer_0_0.dcp' for cell 'mb_ddr3_i/systimer'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_xbar_0/ddr3_controller_xbar_0.dcp' for cell 'mb_ddr3_i/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_auto_pc_0/ddr3_controller_auto_pc_0.dcp' for cell 'mb_ddr3_i/microblaze_0_axi_periph/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_auto_pc_1/ddr3_controller_auto_pc_1.dcp' for cell 'mb_ddr3_i/microblaze_0_axi_periph/m01_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_auto_pc_2/ddr3_controller_auto_pc_2.dcp' for cell 'mb_ddr3_i/microblaze_0_axi_periph/m02_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_auto_pc_3/ddr3_controller_auto_pc_3.dcp' for cell 'mb_ddr3_i/microblaze_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_dlmb_bram_if_cntlr_0/ddr3_controller_dlmb_bram_if_cntlr_0.dcp' for cell 'mb_ddr3_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_dlmb_v10_0/ddr3_controller_dlmb_v10_0.dcp' for cell 'mb_ddr3_i/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_ilmb_bram_if_cntlr_0/ddr3_controller_ilmb_bram_if_cntlr_0.dcp' for cell 'mb_ddr3_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_ilmb_v10_0/ddr3_controller_ilmb_v10_0.dcp' for cell 'mb_ddr3_i/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_lmb_bram_0/ddr3_controller_lmb_bram_0.dcp' for cell 'mb_ddr3_i/microblaze_0_local_memory/lmb_bram'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.879 . Memory (MB): peak = 935.281 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 967 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_microblaze_0_0/ddr3_controller_microblaze_0_0.xdc] for cell 'mb_ddr3_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_microblaze_0_0/ddr3_controller_microblaze_0_0.xdc] for cell 'mb_ddr3_i/microblaze_0/U0'
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_mig_7series_0_1/ddr3_controller_mig_7series_0_1/user_design/constraints/ddr3_controller_mig_7series_0_1.xdc] for cell 'mb_ddr3_i/mig_7series_0'
+INFO: [Vivado 12-4777] Setting CLOCK_DEDICATED_ROUTE constraint on the PARENT net instead of the specified net segment (net name: mb_ddr3_i/mig_7series_0/sys_clk_p). Placer only honors CLOCK_DEDICATED_ROUTE when set on the PARENT net, e.g. net segment directly connected to the driver. To eliminate this message, please update your constraint to specify the PARENT net instead. [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_mig_7series_0_1/ddr3_controller_mig_7series_0_1/user_design/constraints/ddr3_controller_mig_7series_0_1.xdc:41]
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_mig_7series_0_1/ddr3_controller_mig_7series_0_1/user_design/constraints/ddr3_controller_mig_7series_0_1.xdc] for cell 'mb_ddr3_i/mig_7series_0'
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_microblaze_0_axi_intc_0/ddr3_controller_microblaze_0_axi_intc_0.xdc] for cell 'mb_ddr3_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_microblaze_0_axi_intc_0/ddr3_controller_microblaze_0_axi_intc_0.xdc] for cell 'mb_ddr3_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_rst_mig_7series_0_83M_0/ddr3_controller_rst_mig_7series_0_83M_0_board.xdc] for cell 'mb_ddr3_i/rst_mig_7series_0_83M/U0'
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_rst_mig_7series_0_83M_0/ddr3_controller_rst_mig_7series_0_83M_0_board.xdc] for cell 'mb_ddr3_i/rst_mig_7series_0_83M/U0'
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_rst_mig_7series_0_83M_0/ddr3_controller_rst_mig_7series_0_83M_0.xdc] for cell 'mb_ddr3_i/rst_mig_7series_0_83M/U0'
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_rst_mig_7series_0_83M_0/ddr3_controller_rst_mig_7series_0_83M_0.xdc] for cell 'mb_ddr3_i/rst_mig_7series_0_83M/U0'
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_axi_uartlite_0_0/ddr3_controller_axi_uartlite_0_0_board.xdc] for cell 'mb_ddr3_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_axi_uartlite_0_0/ddr3_controller_axi_uartlite_0_0_board.xdc] for cell 'mb_ddr3_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_axi_uartlite_0_0/ddr3_controller_axi_uartlite_0_0.xdc] for cell 'mb_ddr3_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_axi_uartlite_0_0/ddr3_controller_axi_uartlite_0_0.xdc] for cell 'mb_ddr3_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_axi_timer_0_0/ddr3_controller_axi_timer_0_0.xdc] for cell 'mb_ddr3_i/systimer/U0'
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_axi_timer_0_0/ddr3_controller_axi_timer_0_0.xdc] for cell 'mb_ddr3_i/systimer/U0'
+Parsing XDC File [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'init_calib_complete'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'init_calib_complete'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_100mhz'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:27]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk_100mhz]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:27]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'clk_100mhz'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_100mhz'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-4702] SLEW is not a supported property on input port(s). Setting is ignored. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'ddr3_cke[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:255]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:255]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_cke[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:256]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:256]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_cke[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:257]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:257]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_odt[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:260]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:260]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_odt[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:261]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:261]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_odt[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:262]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:262]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:284]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:284]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:286]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:286]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_ck_p[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:313]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:313]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_ck_p[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:314]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:314]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_ck_n[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:317]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:317]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_ck_n[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:318]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:318]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_ck_p[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:319]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:319]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_ck_n[0]'. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:320]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc:320]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.srcs/constrs_1/imports/urbana_ddr3_provided/urbana_ddr3.xdc]
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_microblaze_0_axi_intc_0/ddr3_controller_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_ddr3_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_microblaze_0_axi_intc_0/ddr3_controller_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_ddr3_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_mdm_1_0/ddr3_controller_mdm_1_0.xdc] for cell 'mb_ddr3_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_mdm_1_0/ddr3_controller_mdm_1_0.xdc:50]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_mdm_1_0/ddr3_controller_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1580.480 ; gain = 457.027
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_mdm_1_0/ddr3_controller_mdm_1_0.xdc] for cell 'mb_ddr3_i/mdm_1/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'mb_ddr3_top'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.gen/sources_1/bd/ddr3_controller/ip/ddr3_controller_microblaze_0_0/data/mb_bootloop_le.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1580.480 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 278 instances were transformed.
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 104 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 108 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 11 instances
+
+31 Infos, 20 Warnings, 19 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1580.480 ; gain = 1128.211
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1580.480 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 16acffed0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1604.383 ; gain = 23.902
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_1 into driver instance mb_ddr3_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_2, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/Operand_Select_I/Use_FPU.mem_NanA_2_i_1 into driver instance mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/Operand_Select_I/Use_FPU.mem_NanA_2_i_2, which resulted in an inversion of 4 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/mem_exception_from_ex_i_1 into driver instance mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/mem_exception_from_ex_i_2, which resulted in an inversion of 7 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_FPGA.Native_i_30__0 into driver instance mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_FPGA.Native_i_31__0, which resulted in an inversion of 30 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Using_Victim_Cache.victim_cache_I1/Using_AXI.M_AXI_ARADDR_I[31]_i_1__0 into driver instance mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Using_Victim_Cache.victim_cache_I1/Using_AXI.M_AXI_ARADDR_I[31]_i_3, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Using_Victim_Cache.victim_cache_I1/Using_AXI.r_fifo_mem_reg[15][10]_srl16_i_1 into driver instance mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Using_Victim_Cache.victim_cache_I1/Using_AXI.M_AXI_ARADDR_I[31]_i_4, which resulted in an inversion of 41 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Using_FPGA.Native_i_1__0 into driver instance mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/Using_FPGA_2.ex_load_store_instr_Inst/Using_FPGA.Native_i_2__4, which resulted in an inversion of 4 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/Using_FPGA.Native_i_1__1 into driver instance mb_ddr3_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/U0/Sl_Ready_INST_0, which resulted in an inversion of 33 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.last_rr_hot[0]_i_1__0 into driver instance mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.last_rr_hot[0]_i_2__0, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_grant_enc_i[0]_i_1 into driver instance mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.last_rr_hot[2]_i_2, which resulted in an inversion of 10 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b.b_pipe/s_axi_bvalid[1]_INST_0 into driver instance mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b.b_pipe/s_axi_bvalid[1]_INST_0_i_1, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[2].reg_slice_mi/r.r_pipe/s_axi_rvalid[2]_INST_0 into driver instance mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[2].reg_slice_mi/r.r_pipe/s_axi_rvalid[2]_INST_0_i_1, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[3].reg_slice_mi/r.r_pipe/s_axi_rvalid[1]_INST_0 into driver instance mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[3].reg_slice_mi/r.r_pipe/s_axi_rvalid[1]_INST_0_i_1, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_issue.active_target_enc[2]_i_1 into driver instance mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_single_issue.active_target_hot[3]_i_2, which resulted in an inversion of 12 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.wdata_router_w/wrouter_aw_fifo/gen_srls[0].gen_rep[2].srl_nx1/gen_single_issue.active_target_enc[2]_i_1__0 into driver instance mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_single_issue.active_target_hot[3]_i_2__0, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_write.wdata_router_w/wrouter_aw_fifo/gen_srls[0].gen_rep[0].srl_nx1/gen_single_thread.active_target_enc[0]_i_1__0 into driver instance mb_ddr3_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_write.wdata_router_w/wrouter_aw_fifo/gen_srls[0].gen_rep[0].srl_nx1/gen_single_thread.active_target_enc[0]_i_2, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_tempmon_0/tempmon_state[0]_i_1 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_tempmon_0/tempmon_state[10]_i_6, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/arb_mux0/arb_row_col0/col_arb0/periodic_rd_generation.read_this_rank_r_i_1 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/arb_mux0/arb_row_col0/col_arb0/periodic_rd_generation.read_this_rank_r_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[0].bank0/bank_queue0/idle_r_lcl_i_1 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[0].bank0/bank_queue0/i___33_i_1, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[1].bank0/bank_queue0/idle_r_lcl_i_1__0 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[1].bank0/bank_queue0/rb_hit_busies.rb_hit_busies_r_lcl[1]_i_2, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[2].bank0/bank_queue0/idle_r_lcl_i_1__1 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[2].bank0/bank_queue0/i___33_i_3, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[3].bank0/bank_queue0/idle_r_lcl_i_1__2 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[3].bank0/bank_queue0/i___52_i_2, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[4].bank0/bank_queue0/idle_r_lcl_i_1__3 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[4].bank0/bank_queue0/i___57_i_1, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[5].bank0/bank_queue0/idle_r_lcl_i_1__4 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[5].bank0/bank_queue0/rb_hit_busies.rb_hit_busies_r_lcl[5]_i_2, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[6].bank0/bank_queue0/idle_r_lcl_i_1__5 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[6].bank0/bank_queue0/rb_hit_busies.rb_hit_busies_r_lcl[6]_i_2, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[7].bank0/bank_queue0/idle_r_lcl_i_1__6 into driver instance mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/mc0/bank_mach0/bank_cntrl[7].bank0/bank_queue0/rb_hit_busies.rb_hit_busies_r_lcl[7]_i_2, which resulted in an inversion of 20 pins
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 5 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 11075b236
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1944.273 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 127 cells and removed 205 cells
+INFO: [Opt 31-1021] In phase Retarget, 22 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 11 inverter(s) to 33 load pin(s).
+Phase 2 Constant propagation | Checksum: b20bcf68
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1944.273 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 522 cells and removed 1300 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: b7ae8802
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1944.273 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 1095 cells
+INFO: [Opt 31-1021] In phase Sweep, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG mb_ddr3_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 40 load(s) on clock net mb_ddr3_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 115612c99
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1944.273 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 115612c99
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1944.273 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: cc1ad5cd
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1944.273 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             127  |             205  |                                             22  |
+|  Constant propagation         |             522  |            1300  |                                              2  |
+|  Sweep                        |               1  |            1095  |                                              2  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              2  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1944.273 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1a3961243
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1944.273 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 26 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 8 newly gated: 8 Total Ports: 52
+Ending PowerOpt Patch Enables Task | Checksum: 1604adb37
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.229 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1604adb37
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 2139.629 ; gain = 195.355
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: f7d860e3
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: f7d860e3
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: f7d860e3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+86 Infos, 20 Warnings, 19 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:22 . Memory (MB): peak = 2139.629 ; gain = 559.148
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.108 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1/mb_ddr3_top_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file mb_ddr3_top_drc_opted.rpt -pb mb_ddr3_top_drc_opted.pb -rpx mb_ddr3_top_drc_opted.rpx
+Command: report_drc -file mb_ddr3_top_drc_opted.rpt -pb mb_ddr3_top_drc_opted.pb -rpx mb_ddr3_top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1/mb_ddr3_top_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 5643a456
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 10f1007a0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: cf0e8880
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: cf0e8880
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: cf0e8880
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1097c1f21
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: b67d3a5a
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: b67d3a5a
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 92577be3
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:21 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 1042 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 445 nets or LUTs. Breaked 0 LUT, combined 445 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-76] Pass 1. Identified 1 candidate net for fanout optimization.
+INFO: [Physopt 32-81] Processed net mb_ddr3_i/microblaze_0/U0/MicroBlaze_Core_I/sync_reset. Replicated 11 times.
+INFO: [Physopt 32-232] Optimized 1 net. Created 11 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 11 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.132 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            445  |                   445  |           0  |           1  |  00:00:01  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |           11  |              0  |                     1  |           0  |           1  |  00:00:01  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |           11  |            445  |                   446  |           0  |           4  |  00:00:01  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: e7cece7e
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:24 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 17039b810
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:25 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 17039b810
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:25 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 155a7b1f6
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:26 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 147cfb838
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:29 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 16a615101
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:29 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1f7f1edde
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:29 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 1b0e073be
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:38 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 182596ecc
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 1b70bc2ae
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1b70bc2ae
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 207af1c5e
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=1.150 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1d5b7952f
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 2913cbfd5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 207af1c5e
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:46 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.150. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 208117c34
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:47 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:47 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 208117c34
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:47 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 208117c34
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:47 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                2x2|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 208117c34
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:47 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 208117c34
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:47 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:47 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 18f4eaeba
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:47 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Ending Placer Task | Checksum: 14cb2e558
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:47 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+122 Infos, 20 Warnings, 19 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:13 ; elapsed = 00:00:50 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1/mb_ddr3_top_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file mb_ddr3_top_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file mb_ddr3_top_utilization_placed.rpt -pb mb_ddr3_top_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file mb_ddr3_top_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+131 Infos, 20 Warnings, 19 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2139.629 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1/mb_ddr3_top_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2139.629 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: fdbe9432 ConstDB: 0 ShapeSum: 4ef45126 RouteDB: 0
+Post Restoration Checksum: NetGraph: 6fd3619a NumContArr: 1c44f080 Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: 8c18521a
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:23 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 8c18521a
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:23 . Memory (MB): peak = 2139.629 ; gain = 0.000
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 8c18521a
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:23 . Memory (MB): peak = 2139.629 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 1e3a2dc40
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:29 . Memory (MB): peak = 2163.906 ; gain = 24.277
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.274  | TNS=0.000  | WHS=-0.325 | THS=-292.582|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00669696 %
+  Global Horizontal Routing Utilization  = 0.00130141 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 19517
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 19516
+  Number of Partially Routed Nets     = 1
+  Number of Node Overlaps             = 1
+
+Phase 2 Router Initialization | Checksum: 1957f83f7
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:33 . Memory (MB): peak = 2213.000 ; gain = 73.371
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1957f83f7
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:33 . Memory (MB): peak = 2213.000 ; gain = 73.371
+Phase 3 Initial Routing | Checksum: 206248ab0
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:37 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2435
+ Number of Nodes with overlaps = 240
+ Number of Nodes with overlaps = 61
+ Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.758  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1ebef8527
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:52 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.759  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1f4704340
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:52 . Memory (MB): peak = 2217.105 ; gain = 77.477
+Phase 4 Rip-up And Reroute | Checksum: 1f4704340
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:53 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 1f4704340
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:53 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1f4704340
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:53 . Memory (MB): peak = 2217.105 ; gain = 77.477
+Phase 5 Delay and Skew Optimization | Checksum: 1f4704340
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:53 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1d04f4191
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:54 . Memory (MB): peak = 2217.105 ; gain = 77.477
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.759  | TNS=0.000  | WHS=0.021  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1de170426
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:54 . Memory (MB): peak = 2217.105 ; gain = 77.477
+Phase 6 Post Hold Fix | Checksum: 1de170426
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:54 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 7.47963 %
+  Global Horizontal Routing Utilization  = 8.40838 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 2515445a5
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:55 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2515445a5
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:55 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 2395cfd64
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:57 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.759  | TNS=0.000  | WHS=0.021  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 2395cfd64
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:59 . Memory (MB): peak = 2217.105 ; gain = 77.477
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:59 . Memory (MB): peak = 2217.105 ; gain = 77.477
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+146 Infos, 20 Warnings, 19 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:23 ; elapsed = 00:01:01 . Memory (MB): peak = 2217.105 ; gain = 77.477
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 2223.539 ; gain = 6.434
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1/mb_ddr3_top_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2223.539 ; gain = 6.434
+INFO: [runtcl-4] Executing : report_drc -file mb_ddr3_top_drc_routed.rpt -pb mb_ddr3_top_drc_routed.pb -rpx mb_ddr3_top_drc_routed.rpx
+Command: report_drc -file mb_ddr3_top_drc_routed.rpt -pb mb_ddr3_top_drc_routed.pb -rpx mb_ddr3_top_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1/mb_ddr3_top_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file mb_ddr3_top_methodology_drc_routed.rpt -pb mb_ddr3_top_methodology_drc_routed.pb -rpx mb_ddr3_top_methodology_drc_routed.rpx
+Command: report_methodology -file mb_ddr3_top_methodology_drc_routed.rpt -pb mb_ddr3_top_methodology_drc_routed.pb -rpx mb_ddr3_top_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test.runs/impl_1/mb_ddr3_top_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 2233.652 ; gain = 10.113
+INFO: [runtcl-4] Executing : report_power -file mb_ddr3_top_power_routed.rpt -pb mb_ddr3_top_power_summary_routed.pb -rpx mb_ddr3_top_power_routed.rpx
+Command: report_power -file mb_ddr3_top_power_routed.rpt -pb mb_ddr3_top_power_summary_routed.pb -rpx mb_ddr3_top_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+158 Infos, 20 Warnings, 19 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 2264.363 ; gain = 30.711
+INFO: [runtcl-4] Executing : report_route_status -file mb_ddr3_top_route_status.rpt -pb mb_ddr3_top_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file mb_ddr3_top_timing_summary_routed.rpt -pb mb_ddr3_top_timing_summary_routed.pb -rpx mb_ddr3_top_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[7].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[8].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[1].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[5].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[3].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[2].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[4].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[6].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[6].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[7].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[2].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[4].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[3].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[5].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[8].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+CRITICAL WARNING: [Timing 38-469] The REFCLK pin of IDELAYCTRL mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_iodelay_ctrl/u_idelayctrl_200 has a clock period of 5.063 ns (frequency 197.531 Mhz) but IDELAYE2 mb_ddr3_i/mig_7series_0/u_ddr3_controller_mig_7series_0_1_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[1].iserdes_dq_.idelay_dq.idelaye2 has REFCLK_FREQUENCY of 200.000 Mhz (period 5.000 ns). The IDELAYCTRL REFCLK pin frequency must match the IDELAYE2 REFCLK_FREQUENCY property.
+Resolution: Check that the IDELAYCTRL REFCLK pin is receiving a clock and that the period of the clock matches the REFCLK_FREQUENCY property of the <IDELAYE2/ODELAYE2>.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file mb_ddr3_top_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file mb_ddr3_top_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file mb_ddr3_top_bus_skew_routed.rpt -pb mb_ddr3_top_bus_skew_routed.pb -rpx mb_ddr3_top_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 19 04:45:19 2024...

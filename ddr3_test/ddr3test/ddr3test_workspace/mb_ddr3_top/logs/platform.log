@@ -1,0 +1,1537 @@
+TRACE::2024-04-19.05:52:13::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:13::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:13::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-19.05:52:13::SCWPlatform::Opened new HwDB with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:13::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-04-19.05:52:13::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top"
+		}]
+}
+TRACE::2024-04-19.05:52:13::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-04-19.05:52:13::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-04-19.05:52:13::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top"
+		}]
+}
+TRACE::2024-04-19.05:52:13::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top"
+		}]
+}
+TRACE::2024-04-19.05:52:13::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:13::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:13::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:13::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:13::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:13::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:13::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:13::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:13::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:14::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-19.05:52:14::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:14::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:14::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:14::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:14::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:14::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:14::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:14::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:14::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:14::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:14::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:14::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:14::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:14::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:14::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-04-19.05:52:14::SCWMssOS::No sw design opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:14::SCWMssOS::mss does not exists at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:14::SCWMssOS::Creating sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:14::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:14::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:14::SCWMssOS::Writing mss at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:14::SCWMssOS::Completed writing the mss file at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-19.05:52:14::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-04-19.05:52:14::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-04-19.05:52:14::SCWMssOS::Completed writing the mss file at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-19.05:52:14::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-04-19.05:52:17::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-04-19.05:52:17::SCWMssOS::Writing the mss file completed C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:17::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:17::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:17::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:17::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:17::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:17::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dbe717b14684e00e2b7112410aa7367e",
+					"compatibleApp":	"dhrystone",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-04-19.05:52:17::SCWPlatform::Started generating the artifacts platform mb_ddr3_top
+TRACE::2024-04-19.05:52:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-19.05:52:17::SCWPlatform::Started generating the artifacts for system configuration mb_ddr3_top
+LOG::2024-04-19.05:52:17::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-19.05:52:17::SCWSystem::Not a boot domain 
+LOG::2024-04-19.05:52:17::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-19.05:52:17::SCWDomain::Generating domain artifcats
+TRACE::2024-04-19.05:52:17::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-19.05:52:17::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:17::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:17::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWMssOS::Completed writing the mss file at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-19.05:52:17::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-19.05:52:17::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-19.05:52:17::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2024-04-19.05:52:17::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-04-19.05:52:17::SCWMssOS::Copying to export directory.
+TRACE::2024-04-19.05:52:17::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-19.05:52:17::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-19.05:52:17::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-19.05:52:17::SCWSystem::Completed Processing the sysconfig mb_ddr3_top
+LOG::2024-04-19.05:52:17::SCWPlatform::Completed generating the artifacts for system configuration mb_ddr3_top
+TRACE::2024-04-19.05:52:17::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-19.05:52:17::SCWSystem::Writing the bif file for system config mb_ddr3_top
+TRACE::2024-04-19.05:52:17::SCWSystem::dir created 
+TRACE::2024-04-19.05:52:17::SCWSystem::Writing the bif 
+TRACE::2024-04-19.05:52:17::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-19.05:52:17::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-19.05:52:17::SCWPlatform::Completed generating the platform
+TRACE::2024-04-19.05:52:17::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-19.05:52:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-19.05:52:17::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:17::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dbe717b14684e00e2b7112410aa7367e",
+					"compatibleApp":	"dhrystone",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-19.05:52:18::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-19.05:52:18::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-19.05:52:18::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dbe717b14684e00e2b7112410aa7367e",
+					"compatibleApp":	"dhrystone",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-19.05:52:18::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-19.05:52:18::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dbe717b14684e00e2b7112410aa7367e",
+					"compatibleApp":	"dhrystone",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-04-19.05:52:18::SCWPlatform::Started generating the artifacts platform mb_ddr3_top
+TRACE::2024-04-19.05:52:18::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-19.05:52:18::SCWPlatform::Started generating the artifacts for system configuration mb_ddr3_top
+LOG::2024-04-19.05:52:18::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-19.05:52:18::SCWDomain::Generating domain artifcats
+TRACE::2024-04-19.05:52:18::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-19.05:52:18::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::Completed writing the mss file at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-19.05:52:18::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-19.05:52:18::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-19.05:52:18::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-19.05:52:18::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-04-19.05:52:18::SCWMssOS::Copying to export directory.
+TRACE::2024-04-19.05:52:18::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-19.05:52:18::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-19.05:52:18::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-19.05:52:18::SCWSystem::Completed Processing the sysconfig mb_ddr3_top
+LOG::2024-04-19.05:52:18::SCWPlatform::Completed generating the artifacts for system configuration mb_ddr3_top
+TRACE::2024-04-19.05:52:18::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-19.05:52:18::SCWSystem::Writing the bif file for system config mb_ddr3_top
+TRACE::2024-04-19.05:52:18::SCWSystem::dir created 
+TRACE::2024-04-19.05:52:18::SCWSystem::Writing the bif 
+TRACE::2024-04-19.05:52:18::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-19.05:52:18::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-19.05:52:18::SCWPlatform::Completed generating the platform
+TRACE::2024-04-19.05:52:18::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-19.05:52:18::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-19.05:52:18::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:52:18::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:52:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:52:18::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:52:18::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:52:18::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dbe717b14684e00e2b7112410aa7367e",
+					"compatibleApp":	"dhrystone",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-19.05:52:18::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-19.05:53:12::SCWMssOS::cleaning the bsp 
+TRACE::2024-04-19.05:53:12::SCWMssOS::System Command Ran  C: & cd  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2024-04-19.05:53:12::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2024-04-19.05:53:12::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2024-04-19.05:53:12::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2024-04-19.05:53:13::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2024-04-19.05:53:13::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s clean 
+
+TRACE::2024-04-19.05:53:13::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2024-04-19.05:53:13::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-04-19.05:54:10::SCWPlatform::Started generating the artifacts platform mb_ddr3_top
+TRACE::2024-04-19.05:54:10::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-19.05:54:10::SCWPlatform::Started generating the artifacts for system configuration mb_ddr3_top
+LOG::2024-04-19.05:54:10::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-19.05:54:10::SCWSystem::Not a boot domain 
+LOG::2024-04-19.05:54:10::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-19.05:54:10::SCWDomain::Generating domain artifcats
+TRACE::2024-04-19.05:54:10::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-19.05:54:10::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-19.05:54:10::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:10::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:10::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:10::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:54:10::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:10::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:54:10::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:54:10::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:54:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:54:10::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:10::SCWMssOS::Completed writing the mss file at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-19.05:54:10::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:10::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-19.05:54:10::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-19.05:54:10::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-19.05:54:10::SCWMssOS::doing bsp build ... 
+TRACE::2024-04-19.05:54:10::SCWMssOS::System Command Ran  C: & cd  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-04-19.05:54:10::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-19.05:54:10::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2024-04-19.05:54:10::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-pa
+TRACE::2024-04-19.05:54:10::SCWMssOS::tterns"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-19.05:54:10::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2024-04-19.05:54:10::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-pa
+TRACE::2024-04-19.05:54:10::SCWMssOS::tterns"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-19.05:54:10::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hi
+TRACE::2024-04-19.05:54:10::SCWMssOS::gh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-p
+TRACE::2024-04-19.05:54:10::SCWMssOS::atterns"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-19.05:54:10::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multip
+TRACE::2024-04-19.05:54:10::SCWMssOS::ly-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distrib
+TRACE::2024-04-19.05:54:10::SCWMssOS::ute-patterns"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-04-19.05:54:10::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-h
+TRACE::2024-04-19.05:54:10::SCWMssOS::igh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-
+TRACE::2024-04-19.05:54:10::SCWMssOS::patterns"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-19.05:54:10::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-19.05:54:10::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply
+TRACE::2024-04-19.05:54:10::SCWMssOS::-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribut
+TRACE::2024-04-19.05:54:10::SCWMssOS::e-patterns"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-19.05:54:11::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -
+TRACE::2024-04-19.05:54:11::SCWMssOS::mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patte
+TRACE::2024-04-19.05:54:11::SCWMssOS::rns"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-19.05:54:11::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -
+TRACE::2024-04-19.05:54:11::SCWMssOS::mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patte
+TRACE::2024-04-19.05:54:11::SCWMssOS::rns"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-04-19.05:54:11::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high 
+TRACE::2024-04-19.05:54:11::SCWMssOS::-mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patt
+TRACE::2024-04-19.05:54:11::SCWMssOS::erns"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-04-19.05:54:11::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-
+TRACE::2024-04-19.05:54:11::SCWMssOS::high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute
+TRACE::2024-04-19.05:54:11::SCWMssOS::-patterns"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2024-04-19.05:54:11::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2024-04-19.05:54:11::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high
+TRACE::2024-04-19.05:54:11::SCWMssOS:: -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-pat
+TRACE::2024-04-19.05:54:11::SCWMssOS::terns"
+
+TRACE::2024-04-19.05:54:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-19.05:54:13::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-19.05:54:13::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hi
+TRACE::2024-04-19.05:54:13::SCWMssOS::gh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-p
+TRACE::2024-04-19.05:54:13::SCWMssOS::atterns"
+
+TRACE::2024-04-19.05:54:19::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-04-19.05:54:19::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-04-19.05:54:19::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-04-19.05:54:19::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-04-19.05:54:19::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-04-19.05:54:19::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-04-19.05:54:19::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-04-19.05:54:19::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-04-19.05:54:19::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-04-19.05:54:19::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-04-19.05:54:19::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-04-19.05:54:19::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-04-19.05:54:19::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-04-19.05:54:19::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-04-19.05:54:19::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-04-19.05:54:19::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-04-19.05:54:19::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2024-04-19.05:54:19::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2024-04-19.05:54:19::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2024-04-19.05:54:19::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2024-04-19.05:54:19::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2024-04-19.05:54:19::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xtmrctr_g.o micr
+TRACE::2024-04-19.05:54:19::SCWMssOS::oblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/xtmrctr_selftest.o
+TRACE::2024-04-19.05:54:19::SCWMssOS:: microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2024-04-19.05:54:19::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2024-04-19.05:54:19::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-04-19.05:54:20::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-04-19.05:54:20::SCWMssOS::Copying to export directory.
+TRACE::2024-04-19.05:54:20::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-19.05:54:20::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-19.05:54:20::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-19.05:54:20::SCWSystem::Completed Processing the sysconfig mb_ddr3_top
+LOG::2024-04-19.05:54:20::SCWPlatform::Completed generating the artifacts for system configuration mb_ddr3_top
+TRACE::2024-04-19.05:54:20::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-19.05:54:20::SCWSystem::Writing the bif file for system config mb_ddr3_top
+TRACE::2024-04-19.05:54:20::SCWSystem::dir created 
+TRACE::2024-04-19.05:54:20::SCWSystem::Writing the bif 
+TRACE::2024-04-19.05:54:20::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-19.05:54:20::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-19.05:54:20::SCWPlatform::Completed generating the platform
+TRACE::2024-04-19.05:54:20::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:20::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-19.05:54:20::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-19.05:54:20::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.05:54:20::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:54:20::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:54:20::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:54:20::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:20::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:54:20::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:54:20::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:54:20::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:20::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:54:20::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:54:20::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:54:20::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:20::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dbe717b14684e00e2b7112410aa7367e",
+					"compatibleApp":	"dhrystone",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-19.05:54:20::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-19.05:54:20::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.05:54:20::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.05:54:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Opened existing hwdb mb_ddr3_top_0
+TRACE::2024-04-19.05:54:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.05:54:20::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.05:54:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.05:54:20::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:56::SCWPlatform::Clearing the existing platform
+TRACE::2024-04-19.06:15:56::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-04-19.06:15:56::SCWMssOS::Removing the swdes entry for  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:56::SCWSystem::Clearing the domains completed.
+TRACE::2024-04-19.06:15:56::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-04-19.06:15:56::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:56::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:56::SCWPlatform:: Platform location is C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:15:56::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:56::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:15:56::SCWPlatform::Removing the HwDB with name C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:56::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:56::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:56::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:56::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:15:56::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:56::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:15:56::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-19.06:15:57::SCWPlatform::Opened new HwDB with name mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWReader::Active system found as  mb_ddr3_top
+TRACE::2024-04-19.06:15:57::SCWReader::Handling sysconfig mb_ddr3_top
+TRACE::2024-04-19.06:15:57::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Opened existing hwdb mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Opened existing hwdb mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Opened existing hwdb mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Opened existing hwdb mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:15:57::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:57::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-04-19.06:15:57::SCWMssOS::No sw design opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:57::SCWMssOS::mss exists loading the mss file  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:57::SCWMssOS::Opened the sw design from mss  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:57::SCWMssOS::Adding the swdes entry C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-04-19.06:15:57::SCWMssOS::updating the scw layer about changes
+TRACE::2024-04-19.06:15:57::SCWMssOS::Opened the sw design.  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:57::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-19.06:15:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-19.06:15:57::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.06:15:57::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-04-19.06:15:57::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:15:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:15:57::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Opened existing hwdb mb_ddr3_top_2
+TRACE::2024-04-19.06:15:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:15:57::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.06:15:57::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:15:57::SCWReader::No isolation master present  
+TRACE::2024-04-19.06:16:00::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/tempdsa/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:00::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/tempdsa/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:00::SCWPlatform:: Platform location is C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/tempdsa
+TRACE::2024-04-19.06:16:00::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/tempdsa/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:00::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:16:01::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2024-04-19.06:16:01::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:16:01::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_2
+TRACE::2024-04-19.06:16:01::SCWPlatform::Opened existing hwdb mb_ddr3_top_2
+TRACE::2024-04-19.06:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:16:01::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:16:01::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_2
+TRACE::2024-04-19.06:16:01::SCWPlatform::Opened existing hwdb mb_ddr3_top_2
+TRACE::2024-04-19.06:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:16:01::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.06:16:01::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:01::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/tempdsa/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/tempdsa/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/tempdsa/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/tempdsa
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/tempdsa/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:16:01::SCWPlatform::update - Opened existing hwdb mb_ddr3_top_3
+TRACE::2024-04-19.06:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:16:01::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-19.06:16:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-19.06:16:01::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.06:16:01::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2024-04-19.06:16:01::SCWMssOS::Removing the swdes entry for  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:01::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:16:01::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-19.06:16:01::SCWPlatform::Opened new HwDB with name mb_ddr3_top_4
+TRACE::2024-04-19.06:16:01::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:01::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-04-19.06:16:01::SCWMssOS::Writing the mss file completed C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:01::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.06:16:01::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:01::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:16:01::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_4
+TRACE::2024-04-19.06:16:01::SCWPlatform::Opened existing hwdb mb_ddr3_top_4
+TRACE::2024-04-19.06:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:16:01::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.06:16:01::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:01::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dbe717b14684e00e2b7112410aa7367e1",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-04-19.06:16:13::SCWMssOS::cleaning the bsp 
+TRACE::2024-04-19.06:16:13::SCWMssOS::System Command Ran  C: & cd  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2024-04-19.06:16:13::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2024-04-19.06:16:13::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2024-04-19.06:16:13::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2024-04-19.06:16:13::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2024-04-19.06:16:14::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s clean 
+
+TRACE::2024-04-19.06:16:14::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2024-04-19.06:16:15::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-04-19.06:16:54::SCWPlatform::Started generating the artifacts platform mb_ddr3_top
+TRACE::2024-04-19.06:16:54::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-19.06:16:54::SCWPlatform::Started generating the artifacts for system configuration mb_ddr3_top
+LOG::2024-04-19.06:16:54::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-19.06:16:54::SCWSystem::Not a boot domain 
+LOG::2024-04-19.06:16:54::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-19.06:16:54::SCWDomain::Generating domain artifcats
+TRACE::2024-04-19.06:16:54::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-19.06:16:54::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-19.06:16:54::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:54::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:54::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:54::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:16:54::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:16:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:16:54::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_4
+TRACE::2024-04-19.06:16:54::SCWPlatform::Opened existing hwdb mb_ddr3_top_4
+TRACE::2024-04-19.06:16:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:16:54::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.06:16:54::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:54::SCWMssOS::Completed writing the mss file at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-19.06:16:54::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:16:54::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2024-04-19.06:16:56::SCWMssOS::doing bsp build ... 
+TRACE::2024-04-19.06:16:56::SCWMssOS::System Command Ran  C: & cd  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-04-19.06:16:56::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-04-19.06:16:56::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-19.06:16:57::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2024-04-19.06:16:57::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-pa
+TRACE::2024-04-19.06:16:57::SCWMssOS::tterns"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-19.06:16:57::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hig
+TRACE::2024-04-19.06:16:57::SCWMssOS::h -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-pa
+TRACE::2024-04-19.06:16:57::SCWMssOS::tterns"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-19.06:16:57::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hi
+TRACE::2024-04-19.06:16:57::SCWMssOS::gh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-p
+TRACE::2024-04-19.06:16:57::SCWMssOS::atterns"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-19.06:16:57::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multip
+TRACE::2024-04-19.06:16:57::SCWMssOS::ly-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distrib
+TRACE::2024-04-19.06:16:57::SCWMssOS::ute-patterns"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-04-19.06:16:57::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-h
+TRACE::2024-04-19.06:16:57::SCWMssOS::igh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-
+TRACE::2024-04-19.06:16:57::SCWMssOS::patterns"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-19.06:16:57::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-19.06:16:57::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply
+TRACE::2024-04-19.06:16:57::SCWMssOS::-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribut
+TRACE::2024-04-19.06:16:57::SCWMssOS::e-patterns"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-19.06:16:58::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -
+TRACE::2024-04-19.06:16:58::SCWMssOS::mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patte
+TRACE::2024-04-19.06:16:58::SCWMssOS::rns"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-19.06:16:58::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -
+TRACE::2024-04-19.06:16:58::SCWMssOS::mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patte
+TRACE::2024-04-19.06:16:58::SCWMssOS::rns"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-04-19.06:16:58::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high 
+TRACE::2024-04-19.06:16:58::SCWMssOS::-mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patt
+TRACE::2024-04-19.06:16:58::SCWMssOS::erns"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-04-19.06:16:58::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-
+TRACE::2024-04-19.06:16:58::SCWMssOS::high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute
+TRACE::2024-04-19.06:16:58::SCWMssOS::-patterns"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2024-04-19.06:16:58::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2024-04-19.06:16:58::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high
+TRACE::2024-04-19.06:16:58::SCWMssOS:: -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-pat
+TRACE::2024-04-19.06:16:58::SCWMssOS::terns"
+
+TRACE::2024-04-19.06:16:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-19.06:16:59::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-19.06:16:59::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-hi
+TRACE::2024-04-19.06:16:59::SCWMssOS::gh -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-p
+TRACE::2024-04-19.06:16:59::SCWMssOS::atterns"
+
+TRACE::2024-04-19.06:17:05::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-04-19.06:17:06::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-04-19.06:17:06::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-04-19.06:17:06::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-04-19.06:17:06::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-04-19.06:17:06::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-04-19.06:17:06::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-04-19.06:17:06::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-04-19.06:17:06::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-04-19.06:17:06::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-04-19.06:17:06::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-04-19.06:17:06::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-04-19.06:17:06::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-04-19.06:17:06::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-04-19.06:17:06::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-04-19.06:17:06::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-04-19.06:17:06::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2024-04-19.06:17:06::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2024-04-19.06:17:06::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2024-04-19.06:17:06::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2024-04-19.06:17:06::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2024-04-19.06:17:06::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xtmrctr_g.o micr
+TRACE::2024-04-19.06:17:06::SCWMssOS::oblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/xtmrctr_selftest.o
+TRACE::2024-04-19.06:17:06::SCWMssOS:: microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2024-04-19.06:17:06::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2024-04-19.06:17:06::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-04-19.06:17:06::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-04-19.06:17:06::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-19.06:17:06::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-19.06:17:06::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-19.06:17:06::SCWSystem::Completed Processing the sysconfig mb_ddr3_top
+LOG::2024-04-19.06:17:06::SCWPlatform::Completed generating the artifacts for system configuration mb_ddr3_top
+TRACE::2024-04-19.06:17:06::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-19.06:17:06::SCWSystem::Writing the bif file for system config mb_ddr3_top
+TRACE::2024-04-19.06:17:06::SCWSystem::dir created 
+TRACE::2024-04-19.06:17:06::SCWSystem::Writing the bif 
+TRACE::2024-04-19.06:17:06::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-19.06:17:06::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-19.06:17:06::SCWPlatform::Completed generating the platform
+TRACE::2024-04-19.06:17:06::SCWMssOS::Saving the mss changes C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:17:06::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-04-19.06:17:06::SCWMssOS::Writing the mss file completed C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:17:06::SCWMssOS::Commit changes completed.
+TRACE::2024-04-19.06:17:06::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:17:06::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:17:06::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:17:06::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:17:06::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:17:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:17:06::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_4
+TRACE::2024-04-19.06:17:06::SCWPlatform::Opened existing hwdb mb_ddr3_top_4
+TRACE::2024-04-19.06:17:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:17:06::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:17:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.06:17:06::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:17:06::SCWWriter::formatted JSON is {
+	"platformName":	"mb_ddr3_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_ddr3_top",
+	"platHandOff":	"C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/mb_ddr3_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_ddr3_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_ddr3_top",
+	"systems":	[{
+			"systemName":	"mb_ddr3_top",
+			"systemDesc":	"mb_ddr3_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_ddr3_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dbe717b14684e00e2b7112410aa7367e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-19.06:17:06::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-19.06:17:06::SCWPlatform::Trying to open the hw design at C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:17:06::SCWPlatform::DSA given C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:17:06::SCWPlatform::DSA absoulate path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:17:06::SCWPlatform::DSA directory C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw
+TRACE::2024-04-19.06:17:06::SCWPlatform:: Platform Path C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/hw/mb_ddr3_top.xsa
+TRACE::2024-04-19.06:17:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-19.06:17:06::SCWPlatform::Trying to set the existing hwdb with name mb_ddr3_top_4
+TRACE::2024-04-19.06:17:06::SCWPlatform::Opened existing hwdb mb_ddr3_top_4
+TRACE::2024-04-19.06:17:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-19.06:17:06::SCWMssOS::Checking the sw design at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-19.06:17:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-19.06:17:06::SCWMssOS::Sw design exists and opened at  C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
