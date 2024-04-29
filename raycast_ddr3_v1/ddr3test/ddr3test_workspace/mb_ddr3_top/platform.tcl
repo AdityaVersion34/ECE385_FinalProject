@@ -26,3 +26,5 @@ platform active {mb_ddr3_top}
 platform config -updatehw {C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/mb_ddr3_top.xsa}
 platform clean
 platform generate
+platform clean
+platform generate

@@ -94,56 +94,56 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_microblaze_0_0/ddr3_controller_microblaze_0_0.xci">
-          <Proxy FileSetName="ddr3_controller_microblaze_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_mig_7series_0_1/ddr3_controller_mig_7series_0_1.xci">
-          <Proxy FileSetName="ddr3_controller_mig_7series_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_rst_mig_7series_0_83M_0/ddr3_controller_rst_mig_7series_0_83M_0.xci">
-          <Proxy FileSetName="ddr3_controller_rst_mig_7series_0_83M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_axi_uartlite_0_0/ddr3_controller_axi_uartlite_0_0.xci">
-          <Proxy FileSetName="ddr3_controller_axi_uartlite_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_axi_timer_0_0/ddr3_controller_axi_timer_0_0.xci">
-          <Proxy FileSetName="ddr3_controller_axi_timer_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_xbar_0/ddr3_controller_xbar_0.xci">
-          <Proxy FileSetName="ddr3_controller_xbar_0"/>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_dlmb_bram_if_cntlr_0/ddr3_controller_dlmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="ddr3_controller_dlmb_bram_if_cntlr_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_ilmb_v10_0/ddr3_controller_ilmb_v10_0.xci">
           <Proxy FileSetName="ddr3_controller_ilmb_v10_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_lmb_bram_0/ddr3_controller_lmb_bram_0.xci">
-          <Proxy FileSetName="ddr3_controller_lmb_bram_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_auto_pc_1/ddr3_controller_auto_pc_1.xci">
-          <Proxy FileSetName="ddr3_controller_auto_pc_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_microblaze_0_axi_intc_0/ddr3_controller_microblaze_0_axi_intc_0.xci">
-          <Proxy FileSetName="ddr3_controller_microblaze_0_axi_intc_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_ilmb_bram_if_cntlr_0/ddr3_controller_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="ddr3_controller_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_mdm_1_0/ddr3_controller_mdm_1_0.xci">
           <Proxy FileSetName="ddr3_controller_mdm_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_dlmb_v10_0/ddr3_controller_dlmb_v10_0.xci">
-          <Proxy FileSetName="ddr3_controller_dlmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_auto_pc_2/ddr3_controller_auto_pc_2.xci">
-          <Proxy FileSetName="ddr3_controller_auto_pc_2"/>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_xbar_0/ddr3_controller_xbar_0.xci">
+          <Proxy FileSetName="ddr3_controller_xbar_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_auto_pc_3/ddr3_controller_auto_pc_3.xci">
           <Proxy FileSetName="ddr3_controller_auto_pc_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_dlmb_bram_if_cntlr_0/ddr3_controller_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="ddr3_controller_dlmb_bram_if_cntlr_0"/>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_axi_timer_0_0/ddr3_controller_axi_timer_0_0.xci">
+          <Proxy FileSetName="ddr3_controller_axi_timer_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_microblaze_0_axi_intc_0/ddr3_controller_microblaze_0_axi_intc_0.xci">
+          <Proxy FileSetName="ddr3_controller_microblaze_0_axi_intc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_axi_uartlite_0_0/ddr3_controller_axi_uartlite_0_0.xci">
+          <Proxy FileSetName="ddr3_controller_axi_uartlite_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_lmb_bram_0/ddr3_controller_lmb_bram_0.xci">
+          <Proxy FileSetName="ddr3_controller_lmb_bram_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_ilmb_bram_if_cntlr_0/ddr3_controller_ilmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="ddr3_controller_ilmb_bram_if_cntlr_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_auto_pc_0/ddr3_controller_auto_pc_0.xci">
           <Proxy FileSetName="ddr3_controller_auto_pc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_auto_pc_1/ddr3_controller_auto_pc_1.xci">
+          <Proxy FileSetName="ddr3_controller_auto_pc_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_auto_pc_2/ddr3_controller_auto_pc_2.xci">
+          <Proxy FileSetName="ddr3_controller_auto_pc_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_rst_mig_7series_0_83M_0/ddr3_controller_rst_mig_7series_0_83M_0.xci">
+          <Proxy FileSetName="ddr3_controller_rst_mig_7series_0_83M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_dlmb_v10_0/ddr3_controller_dlmb_v10_0.xci">
+          <Proxy FileSetName="ddr3_controller_dlmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_mig_7series_0_1/ddr3_controller_mig_7series_0_1.xci">
+          <Proxy FileSetName="ddr3_controller_mig_7series_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ddr3_controller.bd" FileRelPathName="ip/ddr3_controller_microblaze_0_0/ddr3_controller_microblaze_0_0.xci">
+          <Proxy FileSetName="ddr3_controller_microblaze_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/imports/urbana_ddr3_provided/mb_ddr3_top.sv">
