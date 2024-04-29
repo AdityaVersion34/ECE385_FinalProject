@@ -38,6 +38,15 @@ module interconnect_top #(
     output logic [ITX_DATA_WIDTH-1: 0] rec_to
     );
     
+    logic [ITX_DATA_WIDTH-1: 0] data_got;
+    logic [ITX_DATA_WIDTH-1: 0] data_out;
     
+    sender_handler #(.ITX_DATA_WIDTH(ITX_DATA_WIDTH)) sender_handler_inst (
+        .*
+    );
+    
+    rec_handler #(.ITX_DATA_WIDTH(ITX_DATA_WIDTH)) rec_handler_inst (
+        .*
+    );
     
 endmodule
