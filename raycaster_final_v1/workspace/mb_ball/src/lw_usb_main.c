@@ -11,12 +11,23 @@
 #include "xparameters.h"
 #include <xgpio.h>
 
+#include <math.h>
+
 extern HID_DEVICE hid_device;
 
 static XGpio Gpio_hex;
 
 static BYTE addr = 1; 				//hard-wired USB address
 const char* const devclasses[] = { " Uninitialized", " HID Keyboard", " HID Mouse", " Mass storage" };
+
+//--------------------
+//new defs:
+
+#define PI 3.14159
+#define monitorXdim 480		//since hdmi prints row major order, currently using a rotated monitor
+#define monitorYdim 640
+
+//--------------------
 
 BYTE GetDriverandReport() {
 	BYTE i;
@@ -60,7 +71,55 @@ void printHex (u32 data, unsigned channel)
 }
 
 int main() {
-    init_platform();
+    
+	//making the game map
+	u8 gameMap[15][15] = 
+	{
+		{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,2,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,2,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,2,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,2,2,2,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,2,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
+	};
+
+	//defining and initializing position and direction variables. camera plane vector is tied to the dir vect
+	float xpos = 7;		//starts in the middle
+	float ypos = 7;
+	float xdir = 0;		//starts facing to the top. unit vector.
+	float ydir = 1;
+	float xcam = 1;
+	float ycam = 0;
+
+	//declaring more variables
+	float scaledScreenPos;		//this variable stores the current screen position scaled on a -1 to 1 scale
+	float castRayx;			//stores x and y pos of the current cast vector (not including player pos)
+	float castRayy;
+
+	float distFromx;		//distance from current cast ray position to the next x or y edge it will collide with
+	float distFromy;
+
+	float distToNextx;		//how far the cast ray has to be projected to produce a 1x or 1y step
+	float distToNexty;
+
+	u8 isHit;		//stores the kind of wall that has been hit
+	u8 whichSide;	//was the wall hit in x or y dir
+	u8 stepDirx;	//which direction to step in for the DDA alg in both directions
+	u8 stepDiry;
+
+	u8 truncXpos;		//truncated x and y player positions - which map cell are we in
+	u8 truncYpos;
+	
+	init_platform();
     XGpio_Initialize(&Gpio_hex, XPAR_GPIO_USB_KEYCODE_DEVICE_ID);
    	XGpio_SetDataDirection(&Gpio_hex, 1, 0x00000000); //configure hex display GPIO
    	XGpio_SetDataDirection(&Gpio_hex, 2, 0x00000000); //configure hex display GPIO
@@ -82,11 +141,11 @@ int main() {
 		xil_printf("."); //A tick here means one loop through the USB main handler
 		MAX3421E_Task();
 		USB_Task();
-		if (GetUsbTaskState() == USB_STATE_RUNNING) {
+		if (GetUsbTaskState() == USB_STATE_RUNNING) {	//operations within this condition - usb is polling
 			if (!runningdebugflag) {
 				runningdebugflag = 1;
 				device = GetDriverandReport();
-			} else if (device == 1) {
+			} else if (device == 1) {		//within this - using keyboard not mouse
 				//run keyboard debug polling
 				rcode = kbdPoll(&kbdbuf);
 				if (rcode == hrNAK) {
@@ -96,14 +155,71 @@ int main() {
 					xil_printf("%x \n", rcode);
 					continue;
 				}
+				//COMMENTING OUT PRINT SECTION TO PREVENT CLUTTER
+				/*
 				xil_printf("keycodes: ");
 				for (int i = 0; i < 6; i++) {
 					xil_printf("%x ", kbdbuf.keycode[i]);
 				}
+				*/
 				//Outputs the first 4 keycodes using the USB GPIO channel 1
-				printHex (kbdbuf.keycode[0] + (kbdbuf.keycode[1]<<8) + (kbdbuf.keycode[2]<<16) + + (kbdbuf.keycode[3]<<24), 1);
+				//printHex (kbdbuf.keycode[0] + (kbdbuf.keycode[1]<<8) + (kbdbuf.keycode[2]<<16) + + (kbdbuf.keycode[3]<<24), 1);
 				//Modify to output the last 2 keycodes on channel 2.
-				xil_printf("\n");
+				//xil_printf("\n");
+				//---------------------------------------------
+
+				//game loop execution
+
+				//digital differential analysis algorithm - for each ray, based on the direction,
+				//jump between the nearest edge and see if it touches a wall. return the nearest one with the dist
+
+				//leaving algorithm in main for now, may refactor later
+
+				//loop through every vertical strip on screen:
+				for(u16 i=0; i<monitorXdim; i++){
+					scaledScreenPos = 2*(i/(double)monitorXdim) - 1;		//setting ssp based on curr screen pos
+					
+					castRayx = xdir + xcam*(scaledScreenPos);
+					castRayy = ydir + ycam*(scaledScreenPos);
+
+					truncXpos = (u8)xpos;		//updating current cell we're in
+					truncYpos = (u8)ypos;
+
+					//these represent the distance the ray has to cover to travel 1 unit in x and y dist
+					//condition to prevent division by zero, setting it to very large value
+					distToNextx = (castRayx == 0) ? 1e30 : abs(1/castRayx);
+					distToNexty = (castRayy == 0) ? 1e30 : abs(1/castRayy);
+
+					//initializing which direction we're going in and initial relative distFrom values
+					if(castRayx < 0){		//for x axis
+						stepDirx = -1;
+						distFromx = (xpos - truncXpos)*distToNextx;
+					}else{
+						stepDirx = 1;
+						distFromx = (1.0 + (truncXpos - xpos))*distToNextx;
+					}
+
+					if(castRayy < 0){
+						stepDiry = -1;
+						distFromy = (ypos - truncYpos)*distToNexty;
+					}else{
+						stepDirx = 1;
+						distFromy = (1.0 + (truncYpos - ypos))*distToNexty;
+					}
+
+					//loop through ray, until we hit a wall
+					while(isHit == 0){
+						//jump based on which axis grid side is closer
+						if(distFromx < distFromy){
+							distFromx += distToNextx;
+							truncXpos += stepDirx;
+							whichSide = 0;
+						}else{
+
+						}
+					}
+				}
+
 			}
 
 			else if (device == 2) {

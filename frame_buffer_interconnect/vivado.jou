@@ -50,3 +50,10 @@ update_compile_order -fileset sources_1
 refresh_design
 close_project
 save_project_as raycaster_final_v1 C:/Users/Aditya/ece385/final_project/raycaster_final_v1 -force
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/mb_usb_hdmi_top.xsa
+current_project hdmi_text_controller_v1_0_project
+close_project
