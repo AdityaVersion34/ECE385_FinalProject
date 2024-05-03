@@ -1,4 +1,4 @@
-15:10:55 **** Build of configuration Debug for project mb_ball ****
+04:56:01 **** Build of configuration Debug for project mb_ball ****
 make all 
 'Building file: ../src/lw_usb/HID.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -64,6 +64,32 @@ mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lw_usb/transfer.o" -IC:/Users
 'Building file: ../src/lw_usb_main.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lw_usb_main.o" -IC:/Users/Aditya/ece385/lab6_2/ball_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lw_usb_main.d" -MT"src/lw_usb_main.o" -o "src/lw_usb_main.o" "../src/lw_usb_main.c"
+../src/lw_usb_main.c: In function 'main':
+../src/lw_usb_main.c:216:83: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  216 |                                         distToNextx = (castRayx == 0) ? INT_MAX : abs((1<<(SHIFT_BY*2))/castRayx);
+      |                                                                                   ^~~
+../src/lw_usb_main.c:15:1: note: include '<stdlib.h>' or provide a declaration of 'abs'
+   14 | #include <math.h>
+  +++ |+#include <stdlib.h>
+   15 | 
+../src/lw_usb_main.c:224:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  224 |                                                 distFromx = ((xpos - truncXpos<<SHIFT_BY)*distToNextx)>>SHIFT_BY;
+      |                                                               ~~~~~^~~~~~~~~~~
+../src/lw_usb_main.c:227:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  227 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
+      |                                                                                                  ^
+../src/lw_usb_main.c:227:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+  227 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
+      |                                                                           ^
+../src/lw_usb_main.c:232:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  232 |                                                 distFromy = ((ypos - truncYpos<<SHIFT_BY)*distToNexty)>>SHIFT_BY;
+      |                                                               ~~~~~^~~~~~~~~~~
+../src/lw_usb_main.c:235:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  235 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
+      |                                                                                                  ^
+../src/lw_usb_main.c:235:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+  235 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
+      |                                                                           ^
 'Finished building: ../src/lw_usb_main.c'
 ' '
 'Building file: ../src/platform.c'
@@ -79,9 +105,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Aditya/ece385/lab6_2/ball_workspa
 'Invoking: MicroBlaze Print Size'
 mb-size mb_ball.elf  |tee "mb_ball.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  24200	    488	   3672	  28360	   6ec8	mb_ball.elf
+  25620	    488	   6748	  32856	   8058	mb_ball.elf
 'Finished building: mb_ball.elf.size'
 ' '
 
-15:11:00 Build Finished (took 5s.122ms)
+04:56:05 Build Finished (took 4s.60ms)
 

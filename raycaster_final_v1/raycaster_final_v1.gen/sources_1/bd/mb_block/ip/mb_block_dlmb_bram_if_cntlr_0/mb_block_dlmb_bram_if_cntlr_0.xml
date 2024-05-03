@@ -690,7 +690,7 @@
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>MEM_SIZE</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.BRAM_PORT.MEM_SIZE">32768</spirit:value>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.BRAM_PORT.MEM_SIZE">131072</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>MASTER_TYPE</spirit:name>
@@ -1967,7 +1967,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:56bec40d</spirit:value>
+            <spirit:value>9:f7af62e6</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1981,11 +1981,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 22 04:43:24 UTC 2024</spirit:value>
+            <spirit:value>Fri May 03 04:05:48 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:56bec40d</spirit:value>
+            <spirit:value>9:f7af62e6</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2001,11 +2001,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 22 04:43:24 UTC 2024</spirit:value>
+            <spirit:value>Fri May 03 04:05:48 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:56bec40d</spirit:value>
+            <spirit:value>9:f7af62e6</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2025,7 +2025,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:29ba41b0</spirit:value>
+            <spirit:value>9:1345f079</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2041,11 +2041,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 22 04:43:24 UTC 2024</spirit:value>
+            <spirit:value>Fri May 03 04:05:48 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:29ba41b0</spirit:value>
+            <spirit:value>9:1345f079</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2059,11 +2059,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 22 04:47:34 UTC 2024</spirit:value>
+            <spirit:value>Fri May 03 04:06:55 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:56bec40d</spirit:value>
+            <spirit:value>9:f7af62e6</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -3648,7 +3648,7 @@
       <spirit:modelParameter spirit:dataType="std_logic_vector">
         <spirit:name>C_HIGHADDR</spirit:name>
         <spirit:displayName>LMB BRAM High Address</spirit:displayName>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_HIGHADDR" spirit:bitStringLength="64">0x0000000000007FFF</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_HIGHADDR" spirit:bitStringLength="64">0x000000000001FFFF</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="std_logic_vector">
         <spirit:name>C_BASEADDR</spirit:name>
@@ -3990,7 +3990,7 @@
     <spirit:parameter>
       <spirit:name>C_HIGHADDR</spirit:name>
       <spirit:displayName>LMB BRAM High Address</spirit:displayName>
-      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_HIGHADDR" spirit:order="1200" spirit:configGroups="1 Addresses" spirit:bitStringLength="64">0x0000000000007FFF</spirit:value>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_HIGHADDR" spirit:order="1200" spirit:configGroups="1 Addresses" spirit:bitStringLength="64">0x000000000001FFFF</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>

@@ -1,7 +1,6 @@
-2024-04-30T15:10:34.413473300255-15:10:34 **** Build of project mb_usb_hdmi_top ****
-000-buildplatform.bat 64239 mb_usb_hdmi_top  
-000-XSDB Server Channel: tcfchan#2
-000-C:/Xilinx/Vitis/2022.2/gnu/microblaze/nt
+2024-05-03T04:55:44.666309700255-04:55:44 **** Build of project mb_usb_hdmi_top ****
+000-buildplatform.bat 51418 mb_usb_hdmi_top  
+000-XSDB Server Channel: tcfchan#193
 000-Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
 000-make --no-print-directory seq_libs
 000-
@@ -59,11 +58,11 @@
 000-
 000-"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
 000-
-000-"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
-000-
 000-make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
 000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
 000-LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
 000-
 000-make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
 000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
@@ -145,5 +144,5 @@
 000-'Finished building libraries'
 000-
 00255-
-15:10:54 Build Finished (took 20s.195ms)
+04:56:00 Build Finished (took 16s.240ms)
 

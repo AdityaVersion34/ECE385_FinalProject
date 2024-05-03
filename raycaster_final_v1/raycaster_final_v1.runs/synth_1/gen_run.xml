@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1711729974" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/mb_intro_top.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1714710493" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/mb_intro_top.dcp">
   <File Type="PA-TCL" Name="mb_usb_hdmi_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="mb_usb_hdmi_top_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="mb_usb_hdmi_top_reports.tcl"/>
   <File Type="RDS-RDS" Name="mb_usb_hdmi_top.vds"/>
   <File Type="RDS-UTIL" Name="mb_usb_hdmi_top_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="mb_usb_hdmi_top_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="mb_usb_hdmi_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="mb_usb_hdmi_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="mb_usb_hdmi_top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/mb_block/mb_block.bd">
@@ -121,17 +124,17 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_uartlite_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_rst_clk_wiz_1_100M_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb_block_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_uartlite_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb_block_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_clk_wiz_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_mdm_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_ilmb_bram_if_cntlr_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb_block_microblaze_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_gpio_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb_block_microblaze_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_dlmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_lmb_bram_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_microblaze_0_axi_intc_0"/>
