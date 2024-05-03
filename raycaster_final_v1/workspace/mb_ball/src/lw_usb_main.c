@@ -23,6 +23,8 @@ const char* const devclasses[] = { " Uninitialized", " HID Keyboard", " HID Mous
 //--------------------
 //new defs:
 
+volatile u32* colOutAddr = 0x40030000;		//store the column output gpio address
+
 //shift data for fixed-point arithmetic
 #define SHIFT_BY 8
 //will use u16 with 8 decimal points
@@ -131,6 +133,8 @@ int main() {
 	u16 currentColHeight;	//height of the current pixel column
 
 	int framecounter = 0;	//test frame counter
+
+	u32 formattedOutput;	//stores the formatted output - format described at assignment
 	
 	init_platform();
     XGpio_Initialize(&Gpio_hex, XPAR_GPIO_USB_KEYCODE_DEVICE_ID);
@@ -273,7 +277,21 @@ int main() {
 
 					//xil_printf("ypos: %d, xpos: %d, hitwall: %d \n", (truncYpos), (truncXpos), isHit);
 					xil_printf("colheight: %d\nhitwall: %d\n", currentColHeight, isHit);
-					
+
+					/*
+					output format - 32 bits
+					31:28	- side marker - used for differential shading
+					27:24	- wall type
+					23:12	- buffer register address - range: 479-0
+					11:0	- column height - range: 640-0
+					*/
+
+					formattedOutput += (currentColHeight);
+					formattedOutput += (i<<12);
+					formattedOutput += (isHit<<24);
+					formattedOutput += (whichSide<<28);
+
+					*colOutAddr = formattedOutput;
 				}
 
 				

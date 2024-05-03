@@ -10,7 +10,7 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source mb_usb_hdmi_top.tcl -notrace
-create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 372.633 ; gain = 65.617
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 373.203 ; gain = 64.023
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Aditya/ece385/lab6_2/RD_hdmi_ip2020'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
@@ -28,10 +28,10 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 22032
+INFO: [Synth 8-7075] Helper process launched with PID 59736
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1218.102 ; gain = 408.598
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1218.371 ; gain = 408.551
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'mb_usb_hdmi_top' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:14]
 INFO: [Synth 8-6157] synthesizing module 'hex_driver' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/hex_driver.sv:1]
@@ -44,28 +44,30 @@ INFO: [Synth 8-6155] done synthesizing module 'nibble_to_hex' (0#1) [C:/Users/Ad
 INFO: [Synth 8-6157] synthesizing module 'nibble_to_hex' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/hex_driver.sv:11]
 INFO: [Synth 8-6155] done synthesizing module 'nibble_to_hex' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/hex_driver.sv:11]
 INFO: [Synth 8-6155] done synthesizing module 'hex_driver' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/hex_driver.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'mb_block' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:936]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_uartlite_0_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_uartlite_0_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_clk_wiz_1_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_clk_wiz_1_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_2' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_2_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_2' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_2_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_3' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_3_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_3' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_3_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_1' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_1_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_1' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1068]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_uartlite_0_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_uartlite_0_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_clk_wiz_1_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_clk_wiz_1_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_4' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_4_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_4' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_4_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_2' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_2_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_2' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_2_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_3' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_3_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_3' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_3_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_1' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_1' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_gpio_0_1_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'mb_block_xlconcat_0_0' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_xlconcat_0_0/synth/mb_block_xlconcat_0_0.v:53]
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'mb_block_xlconcat_0_0' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_xlconcat_0_0/synth/mb_block_xlconcat_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_mdm_1_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_mdm_1_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_microblaze_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_microblaze_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_intc_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_intc_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_periph_0' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1622]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_mdm_1_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_mdm_1_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_intc_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_intc_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_periph_0' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1815]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1TK4492' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1TK4492' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:12]
 INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_UT2LJ' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:144]
@@ -80,75 +82,93 @@ INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_2FAMHT' [c:/Users/Adi
 INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_2FAMHT' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:672]
 INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_1QRRYF7' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:804]
 INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_1QRRYF7' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:804]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_5YIJ0K' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2946]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_5YIJ0K' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2946]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_xbar_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_xbar_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_xbar_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_xbar_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'mb_block_xbar_0' is unconnected for instance 'xbar' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2671]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'mb_block_xbar_0' is unconnected for instance 'xbar' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2671]
-WARNING: [Synth 8-7023] instance 'xbar' of module 'mb_block_xbar_0' has 40 connections declared, but only 38 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2671]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_periph_0' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1622]
-INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_G5BFEQ' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2712]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_v10_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_dlmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_v10_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_dlmb_v10_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb_block_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2858]
-WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'mb_block_dlmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2858]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_v10_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_ilmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_v10_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_ilmb_v10_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb_block_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2904]
-WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'mb_block_ilmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2904]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_lmb_bram_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_lmb_bram_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_lmb_bram_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_lmb_bram_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'rsta_busy' of module 'mb_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2929]
-WARNING: [Synth 8-7071] port 'rstb_busy' of module 'mb_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2929]
-WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'mb_block_lmb_bram_0' has 16 connections declared, but only 14 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2929]
-INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_G5BFEQ' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2712]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'mb_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1558]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'mb_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1558]
-WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'mb_block_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1558]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_quad_spi_0_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_quad_spi_0_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'io0_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1567]
-WARNING: [Synth 8-7071] port 'io1_o' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1567]
-WARNING: [Synth 8-7071] port 'io1_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1567]
-WARNING: [Synth 8-7071] port 'sck_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1567]
-WARNING: [Synth 8-7071] port 'ss_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1567]
-WARNING: [Synth 8-7023] instance 'spi_usb' of module 'mb_block_axi_quad_spi_0_0' has 33 connections declared, but only 28 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1567]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_timer_0_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_timer_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_timer_0_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/mb_block_axi_timer_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'generateout0' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1596]
-WARNING: [Synth 8-7071] port 'generateout1' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1596]
-WARNING: [Synth 8-7071] port 'pwm0' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1596]
-WARNING: [Synth 8-7023] instance 'timer_usb_axi' of module 'mb_block_axi_timer_0_0' has 26 connections declared, but only 23 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1596]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:936]
-WARNING: [Synth 8-7071] port 'gpio_usb_keycode_0_tri_i' of module 'mb_block' is unconnected for instance 'mb_block_i' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:72]
-WARNING: [Synth 8-7071] port 'gpio_usb_keycode_0_tri_t' of module 'mb_block' is unconnected for instance 'mb_block_i' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:72]
-WARNING: [Synth 8-7071] port 'gpio_usb_keycode_1_tri_i' of module 'mb_block' is unconnected for instance 'mb_block_i' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:72]
-WARNING: [Synth 8-7071] port 'gpio_usb_keycode_1_tri_t' of module 'mb_block' is unconnected for instance 'mb_block_i' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:72]
-WARNING: [Synth 8-7023] instance 'mb_block_i' of module 'mb_block' has 16 connections declared, but only 12 given [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:72]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'm07_couplers_imp_3PYGGY' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:936]
+INFO: [Synth 8-6155] done synthesizing module 'm07_couplers_imp_3PYGGY' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:936]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_5YIJ0K' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3267]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_5YIJ0K' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3267]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_xbar_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_xbar_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_xbar_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'mb_block_xbar_0' is unconnected for instance 'xbar' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2992]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'mb_block_xbar_0' is unconnected for instance 'xbar' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2992]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'mb_block_xbar_0' has 40 connections declared, but only 38 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:2992]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_periph_0' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1815]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_G5BFEQ' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3033]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_v10_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_dlmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_v10_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_dlmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb_block_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3179]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'mb_block_dlmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3179]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_v10_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_ilmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_v10_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_ilmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb_block_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3225]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'mb_block_ilmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3225]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_lmb_bram_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_lmb_bram_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_lmb_bram_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_lmb_bram_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'mb_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3250]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'mb_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3250]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'mb_block_lmb_bram_0' has 16 connections declared, but only 14 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3250]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_G5BFEQ' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:3033]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'mb_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1751]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'mb_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1751]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'mb_block_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1751]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_quad_spi_0_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_quad_spi_0_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'io0_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1760]
+WARNING: [Synth 8-7071] port 'io1_o' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1760]
+WARNING: [Synth 8-7071] port 'io1_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1760]
+WARNING: [Synth 8-7071] port 'sck_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1760]
+WARNING: [Synth 8-7071] port 'ss_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1760]
+WARNING: [Synth 8-7023] instance 'spi_usb' of module 'mb_block_axi_quad_spi_0_0' has 33 connections declared, but only 28 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1760]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_timer_0_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_timer_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_timer_0_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/mb_block_axi_timer_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'generateout0' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1789]
+WARNING: [Synth 8-7071] port 'generateout1' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1789]
+WARNING: [Synth 8-7071] port 'pwm0' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1789]
+WARNING: [Synth 8-7023] instance 'timer_usb_axi' of module 'mb_block_axi_timer_0_0' has 26 connections declared, but only 23 given [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1789]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block' (0#1) [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/synth/mb_block.v:1068]
+WARNING: [Synth 8-7071] port 'gpio_usb_keycode_0_tri_i' of module 'mb_block' is unconnected for instance 'mb_block_i' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:73]
+WARNING: [Synth 8-7071] port 'gpio_usb_keycode_0_tri_t' of module 'mb_block' is unconnected for instance 'mb_block_i' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:73]
+WARNING: [Synth 8-7071] port 'gpio_usb_keycode_1_tri_i' of module 'mb_block' is unconnected for instance 'mb_block_i' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:73]
+WARNING: [Synth 8-7071] port 'gpio_usb_keycode_1_tri_t' of module 'mb_block' is unconnected for instance 'mb_block_i' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:73]
+WARNING: [Synth 8-7023] instance 'mb_block_i' of module 'mb_block' has 17 connections declared, but only 13 given [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:73]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/clk_wiz_0_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'vga_controller' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/VGA_controller.sv:26]
 INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/VGA_controller.sv:26]
-WARNING: [Synth 8-7071] port 'sync' of module 'vga_controller' is unconnected for instance 'vga' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:97]
-WARNING: [Synth 8-7023] instance 'vga' of module 'vga_controller' has 8 connections declared, but only 7 given [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:97]
-INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/hdmi_tx_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-24836-LAPTOP-PDE9G6A6/realtime/hdmi_tx_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'ball' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/ball.sv:18]
-INFO: [Synth 8-6155] done synthesizing module 'ball' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/ball.sv:18]
-INFO: [Synth 8-6157] synthesizing module 'color_mapper' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/Color_Mapper.sv:17]
-INFO: [Synth 8-6155] done synthesizing module 'color_mapper' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/Color_Mapper.sv:17]
+WARNING: [Synth 8-7071] port 'sync' of module 'vga_controller' is unconnected for instance 'vga' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:99]
+WARNING: [Synth 8-7023] instance 'vga' of module 'vga_controller' has 8 connections declared, but only 7 given [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:99]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/hdmi_tx_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/.Xil/Vivado-59560-LAPTOP-PDE9G6A6/realtime/hdmi_tx_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dframe_buf' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/new/dframe_buf.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'dframe_buf' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/new/dframe_buf.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'line_colorer' [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/new/line_colorer.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'line_colorer' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/new/line_colorer.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'mb_usb_hdmi_top' (0#1) [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:14]
+WARNING: [Synth 8-7129] Port colDataOut[23] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[22] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[21] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[20] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[19] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[18] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[17] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[16] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[15] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[14] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[13] in module line_colorer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colDataOut[12] in module line_colorer is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_5YIJ0K is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_5YIJ0K is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_ACLK in module s00_couplers_imp_5YIJ0K is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_ARESETN in module s00_couplers_imp_5YIJ0K is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m07_couplers_imp_3PYGGY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m07_couplers_imp_3PYGGY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m07_couplers_imp_3PYGGY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m07_couplers_imp_3PYGGY is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ACLK in module m06_couplers_imp_1QRRYF7 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module m06_couplers_imp_1QRRYF7 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_ACLK in module m06_couplers_imp_1QRRYF7 is either unconnected or has no load
@@ -191,6 +211,8 @@ WARNING: [Synth 8-7129] Port M05_ACLK in module mb_block_microblaze_0_axi_periph
 WARNING: [Synth 8-7129] Port M05_ARESETN in module mb_block_microblaze_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M06_ACLK in module mb_block_microblaze_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M06_ARESETN in module mb_block_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M07_ACLK in module mb_block_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M07_ARESETN in module mb_block_microblaze_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ACLK in module mb_block_microblaze_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ARESETN in module mb_block_microblaze_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
@@ -227,38 +249,20 @@ WARNING: [Synth 8-7129] Port In34[0] in module xlconcat_v2_1_4_xlconcat is eithe
 WARNING: [Synth 8-7129] Port In35[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In36[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In37[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In38[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In39[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In40[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In41[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In42[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In43[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In44[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In45[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In46[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In47[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In48[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In49[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In50[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In51[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In52[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In53[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In54[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In55[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1323.176 ; gain = 513.672
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1323.590 ; gain = 513.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1323.176 ; gain = 513.672
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1323.590 ; gain = 513.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1323.176 ; gain = 513.672
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1323.590 ; gain = 513.770
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1323.176 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 1323.590 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -297,6 +301,8 @@ Parsing XDC File [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycas
 Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_timer_0_0/mb_block_axi_timer_0_0/mb_block_axi_timer_0_0_in_context.xdc] for cell 'mb_block_i/timer_usb_axi'
 Parsing XDC File [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_quad_spi_0_0/mb_block_axi_quad_spi_0_0/mb_block_axi_quad_spi_0_0_in_context.xdc] for cell 'mb_block_i/spi_usb'
 Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_quad_spi_0_0/mb_block_axi_quad_spi_0_0/mb_block_axi_quad_spi_0_0_in_context.xdc] for cell 'mb_block_i/spi_usb'
+Parsing XDC File [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_0_4/mb_block_axi_gpio_0_4/mb_block_axi_gpio_0_4_in_context.xdc] for cell 'mb_block_i/gpio_column_data'
+Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_0_4/mb_block_axi_gpio_0_4/mb_block_axi_gpio_0_4_in_context.xdc] for cell 'mb_block_i/gpio_column_data'
 Parsing XDC File [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc] for cell 'vga_to_hdmi'
 Finished Parsing XDC File [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc] for cell 'vga_to_hdmi'
 Parsing XDC File [c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz'
@@ -314,25 +320,25 @@ Parsing XDC File [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycas
 Finished Parsing XDC File [C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1396.430 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1366.195 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1396.430 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1366.195 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mb_block_i/spi_usb' at clock pin 'ext_spi_clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mb_block_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7s50csga324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -375,35 +381,37 @@ Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/gpio_usb_keycode. (con
 Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/timer_usb_axi. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/spi_usb. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/irpt_concat. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/gpio_column_data. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for vga_to_hdmi. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   3 Input   32 Bit       Adders := 2     
-	   2 Input   32 Bit       Adders := 1     
 	   2 Input   11 Bit       Adders := 2     
-	   2 Input   10 Bit       Adders := 8     
+	   3 Input   11 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 4     
 +---Registers : 
-	               10 Bit    Registers := 6     
-	                1 Bit    Registers := 2     
-+---Multipliers : 
-	              32x32  Multipliers := 2     
+	               32 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---RAMs : 
+	              14K Bit	(479 X 32 bit)          RAMs := 2     
 +---Muxes : 
-	   2 Input   10 Bit        Muxes := 10    
-	   5 Input   10 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 1     
 	   4 Input    8 Bit        Muxes := 2     
 	   2 Input    8 Bit        Muxes := 2     
 	   5 Input    4 Bit        Muxes := 2     
-	   2 Input    4 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 9     
+	   4 Input    4 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -420,54 +428,24 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-DSP Report: Generating DSP color_instance/Red3, operation Mode is: A*B.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: Generating DSP color_instance/Red3, operation Mode is: (PCIN>>17)+A*B.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: Generating DSP color_instance/Red3, operation Mode is: A*B.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: Generating DSP color_instance/Red3, operation Mode is: (PCIN>>17)+A*B.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: Generating DSP color_instance/Red3, operation Mode is: A*B.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: Generating DSP color_instance/Red3, operation Mode is: (PCIN>>17)+A*B.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: Generating DSP color_instance/Red3, operation Mode is: A*B.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: Generating DSP color_instance/Red3, operation Mode is: (PCIN>>17)+A*B.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
-DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red3.
 WARNING: [Synth 8-3917] design mb_usb_hdmi_top has port hex_segA[7] driven by constant 1
 WARNING: [Synth 8-3917] design mb_usb_hdmi_top has port hex_segB[7] driven by constant 1
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
-DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
-+----------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|Module Name     | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
-+----------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|mb_usb_hdmi_top | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-+----------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+Distributed RAM: Preliminary Mapping Report (see note below)
++----------------+----------------------------+-----------+----------------------+--------------+
+|Module Name     | RTL Object                 | Inference | Size (Depth x Width) | Primitives   | 
++----------------+----------------------------+-----------+----------------------+--------------+
+|mb_usb_hdmi_top | frame_buffer/buf_set_0_reg | Implied   | 512 x 32             | RAM64M x 88  | 
+|mb_usb_hdmi_top | frame_buffer/buf_set_1_reg | Implied   | 512 x 32             | RAM64M x 88  | 
++----------------+----------------------------+-----------+----------------------+--------------+
 
-Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
@@ -476,19 +454,34 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-565] redefining clock 'Clk'
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1366.746 ; gain = 556.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++----------------+----------------------------+-----------+----------------------+--------------+
+|Module Name     | RTL Object                 | Inference | Size (Depth x Width) | Primitives   | 
++----------------+----------------------------+-----------+----------------------+--------------+
+|mb_usb_hdmi_top | frame_buffer/buf_set_0_reg | Implied   | 512 x 32             | RAM64M x 88  | 
+|mb_usb_hdmi_top | frame_buffer/buf_set_1_reg | Implied   | 512 x 32             | RAM64M x 88  | 
++----------------+----------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -506,54 +499,41 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
-
-DSP Final Report (the ' indicates corresponding REG is set)
-+----------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|Module Name     | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
-+----------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|mb_usb_hdmi_top | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | PCIN>>17+A*B | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|mb_usb_hdmi_top | PCIN>>17+A*B | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-+----------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-
 
 Report BlackBoxes: 
 +------+---------------------------------+----------+
@@ -562,22 +542,23 @@ Report BlackBoxes:
 |1     |mb_block_xbar_0                  |         1|
 |2     |mb_block_axi_uartlite_0_0        |         1|
 |3     |mb_block_clk_wiz_1_0             |         1|
-|4     |mb_block_axi_gpio_0_2            |         1|
-|5     |mb_block_axi_gpio_0_3            |         1|
-|6     |mb_block_axi_gpio_0_1            |         1|
-|7     |mb_block_mdm_1_0                 |         1|
-|8     |mb_block_microblaze_0_0          |         1|
-|9     |mb_block_microblaze_0_axi_intc_0 |         1|
-|10    |mb_block_rst_clk_wiz_1_100M_0    |         1|
-|11    |mb_block_axi_quad_spi_0_0        |         1|
-|12    |mb_block_axi_timer_0_0           |         1|
-|13    |mb_block_dlmb_bram_if_cntlr_0    |         1|
-|14    |mb_block_dlmb_v10_0              |         1|
-|15    |mb_block_ilmb_bram_if_cntlr_0    |         1|
-|16    |mb_block_ilmb_v10_0              |         1|
-|17    |mb_block_lmb_bram_0              |         1|
-|18    |clk_wiz_0                        |         1|
-|19    |hdmi_tx_0                        |         1|
+|4     |mb_block_axi_gpio_0_4            |         1|
+|5     |mb_block_axi_gpio_0_2            |         1|
+|6     |mb_block_axi_gpio_0_3            |         1|
+|7     |mb_block_axi_gpio_0_1            |         1|
+|8     |mb_block_mdm_1_0                 |         1|
+|9     |mb_block_microblaze_0_0          |         1|
+|10    |mb_block_microblaze_0_axi_intc_0 |         1|
+|11    |mb_block_rst_clk_wiz_1_100M_0    |         1|
+|12    |mb_block_axi_quad_spi_0_0        |         1|
+|13    |mb_block_axi_timer_0_0           |         1|
+|14    |mb_block_dlmb_bram_if_cntlr_0    |         1|
+|15    |mb_block_dlmb_v10_0              |         1|
+|16    |mb_block_ilmb_bram_if_cntlr_0    |         1|
+|17    |mb_block_ilmb_v10_0              |         1|
+|18    |mb_block_lmb_bram_0              |         1|
+|19    |clk_wiz_0                        |         1|
+|20    |hdmi_tx_0                        |         1|
 +------+---------------------------------+----------+
 
 Report Cell Usage: 
@@ -586,59 +567,60 @@ Report Cell Usage:
 +------+-------------------------------+------+
 |1     |clk_wiz                        |     1|
 |2     |hdmi_tx                        |     1|
-|3     |mb_block_axi_gpio_0            |     3|
-|6     |mb_block_axi_quad_spi_0        |     1|
-|7     |mb_block_axi_timer_0           |     1|
-|8     |mb_block_axi_uartlite_0        |     1|
-|9     |mb_block_clk_wiz_1             |     1|
-|10    |mb_block_dlmb_bram_if_cntlr    |     1|
-|11    |mb_block_dlmb_v10              |     1|
-|12    |mb_block_ilmb_bram_if_cntlr    |     1|
-|13    |mb_block_ilmb_v10              |     1|
-|14    |mb_block_lmb_bram              |     1|
-|15    |mb_block_mdm_1                 |     1|
-|16    |mb_block_microblaze_0          |     1|
-|17    |mb_block_microblaze_0_axi_intc |     1|
-|18    |mb_block_rst_clk_wiz_1_100M    |     1|
-|19    |mb_block_xbar                  |     1|
-|20    |BUFG                           |     1|
-|21    |CARRY4                         |    37|
-|22    |DSP48E1                        |     6|
-|23    |LUT1                           |     3|
-|24    |LUT2                           |   111|
-|25    |LUT3                           |    10|
-|26    |LUT4                           |    37|
-|27    |LUT5                           |    46|
-|28    |LUT6                           |    82|
-|29    |FDCE                           |    22|
-|30    |FDRE                           |    50|
-|31    |FDSE                           |     7|
-|32    |IBUF                           |     4|
-|33    |OBUF                           |    29|
+|3     |mb_block_axi_gpio_0            |     4|
+|7     |mb_block_axi_quad_spi_0        |     1|
+|8     |mb_block_axi_timer_0           |     1|
+|9     |mb_block_axi_uartlite_0        |     1|
+|10    |mb_block_clk_wiz_1             |     1|
+|11    |mb_block_dlmb_bram_if_cntlr    |     1|
+|12    |mb_block_dlmb_v10              |     1|
+|13    |mb_block_ilmb_bram_if_cntlr    |     1|
+|14    |mb_block_ilmb_v10              |     1|
+|15    |mb_block_lmb_bram              |     1|
+|16    |mb_block_mdm_1                 |     1|
+|17    |mb_block_microblaze_0          |     1|
+|18    |mb_block_microblaze_0_axi_intc |     1|
+|19    |mb_block_rst_clk_wiz_1_100M    |     1|
+|20    |mb_block_xbar                  |     1|
+|21    |CARRY4                         |    10|
+|22    |LUT1                           |    11|
+|23    |LUT2                           |    10|
+|24    |LUT3                           |    12|
+|25    |LUT4                           |    28|
+|26    |LUT5                           |    42|
+|27    |LUT6                           |   164|
+|28    |MUXF7                          |    36|
+|29    |MUXF8                          |    18|
+|30    |RAM64M                         |   112|
+|31    |FDCE                           |    36|
+|32    |FDRE                           |    37|
+|33    |IBUF                           |     4|
+|34    |OBUF                           |    29|
 +------+-------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1366.746 ; gain = 556.926
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:46 . Memory (MB): peak = 1397.355 ; gain = 513.672
-Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.355 ; gain = 587.852
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 1366.746 ; gain = 513.770
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1366.746 ; gain = 556.926
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1408.094 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 43 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1366.746 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 176 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1411.773 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1366.746 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 112 instances were transformed.
+  RAM64M => RAM64M (RAMD64E(x4)): 112 instances
 
-Synth Design complete, checksum: d6cb5b5d
+Synth Design complete, checksum: 2fa423a6
 INFO: [Common 17-83] Releasing license: Synthesis
-110 Infos, 138 Warnings, 1 Critical Warnings and 0 Errors encountered.
+114 Infos, 138 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 1411.773 ; gain = 979.031
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 1366.746 ; gain = 933.727
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/mb_usb_hdmi_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file mb_usb_hdmi_top_utilization_synth.rpt -pb mb_usb_hdmi_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu May  2 23:30:32 2024...
+INFO: [Common 17-206] Exiting Vivado at Fri May  3 13:17:18 2024...

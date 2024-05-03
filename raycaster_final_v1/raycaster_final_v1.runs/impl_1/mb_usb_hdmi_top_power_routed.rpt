@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date             : Thu May  2 23:33:17 2024
+| Date             : Fri May  3 13:19:49 2024
 | Host             : LAPTOP-PDE9G6A6 running 64-bit major release  (build 9200)
 | Command          : report_power -file mb_usb_hdmi_top_power_routed.rpt -pb mb_usb_hdmi_top_power_summary_routed.pb -rpx mb_usb_hdmi_top_power_routed.rpx
 | Design           : mb_usb_hdmi_top
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.465        |
+| Total On-Chip Power (W)  | 0.462        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.389        |
+| Dynamic (W)              | 0.385        |
 | Device Static (W)        | 0.077        |
 | Effective TJA (C/W)      | 4.9          |
 | Max Ambient (C)          | 82.7         |
@@ -52,23 +52,22 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.015 |       12 |       --- |             --- |
-| Slice Logic              |     0.006 |     7703 |       --- |             --- |
-|   LUT as Logic           |     0.005 |     2679 |     32600 |            8.22 |
-|   LUT as Distributed RAM |    <0.001 |      172 |      9600 |            1.79 |
-|   Register               |    <0.001 |     3056 |     65200 |            4.69 |
-|   CARRY4                 |    <0.001 |      113 |      8150 |            1.39 |
+| Clocks                   |     0.016 |       12 |       --- |             --- |
+| Slice Logic              |     0.006 |     8444 |       --- |             --- |
+|   LUT as Logic           |     0.004 |     2779 |     32600 |            8.52 |
+|   LUT as Distributed RAM |    <0.001 |      620 |      9600 |            6.46 |
+|   Register               |    <0.001 |     3210 |     65200 |            4.92 |
+|   CARRY4                 |    <0.001 |       86 |      8150 |            1.06 |
+|   F7/F8 Muxes            |    <0.001 |       90 |     32600 |            0.28 |
 |   LUT as Shift Register  |    <0.001 |      112 |      9600 |            1.17 |
-|   F7/F8 Muxes            |    <0.001 |       36 |     32600 |            0.11 |
-|   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
-|   Others                 |     0.000 |      855 |       --- |             --- |
-| Signals                  |     0.011 |     5481 |       --- |             --- |
+|   Others                 |     0.000 |      859 |       --- |             --- |
+| Signals                  |     0.010 |     5722 |       --- |             --- |
 | Block RAM                |    <0.001 |       32 |        75 |           42.67 |
 | MMCM                     |     0.212 |        2 |         5 |           40.00 |
-| DSPs                     |     0.004 |        9 |       120 |            7.50 |
-| I/O                      |     0.141 |       42 |       210 |           20.00 |
+| DSPs                     |     0.002 |        3 |       120 |            2.50 |
+| I/O                      |     0.139 |       42 |       210 |           20.00 |
 | Static Power             |     0.077 |          |           |                 |
-| Total                    |     0.465 |          |           |                 |
+| Total                    |     0.462 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -78,9 +77,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.049 |       0.038 |      0.011 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.047 |       0.036 |      0.011 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.130 |       0.118 |      0.013 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.042 |       0.041 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.041 |       0.040 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.003 |       0.002 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -153,17 +152,16 @@ Table of Contents
 +-----------------------------+-----------+
 | Name                        | Power (W) |
 +-----------------------------+-----------+
-| mb_usb_hdmi_top             |     0.389 |
+| mb_usb_hdmi_top             |     0.385 |
 |   clk_wiz                   |     0.106 |
 |     inst                    |     0.106 |
-|   color_instance            |     0.002 |
-|   mb_block_i                |     0.136 |
+|   mb_block_i                |     0.138 |
 |     clk_wiz_1               |     0.106 |
 |       inst                  |     0.106 |
 |     gpio_usb_keycode        |     0.003 |
 |       U0                    |     0.003 |
-|     microblaze_0            |     0.016 |
-|       U0                    |     0.016 |
+|     microblaze_0            |     0.017 |
+|       U0                    |     0.017 |
 |     microblaze_0_axi_intc   |     0.001 |
 |       U0                    |     0.001 |
 |     microblaze_0_axi_periph |     0.001 |
@@ -172,8 +170,8 @@ Table of Contents
 |       U0                    |     0.004 |
 |     timer_usb_axi           |     0.002 |
 |       U0                    |     0.002 |
-|   vga_to_hdmi               |     0.134 |
-|     inst                    |     0.134 |
+|   vga_to_hdmi               |     0.133 |
+|     inst                    |     0.133 |
 +-----------------------------+-----------+
 
 

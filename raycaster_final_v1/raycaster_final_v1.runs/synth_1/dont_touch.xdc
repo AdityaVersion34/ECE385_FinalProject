@@ -63,4 +63,7 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_block_ax
 # IP: bd/mb_block/ip/mb_block_xlconcat_0_0/mb_block_xlconcat_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_block_xlconcat_0_0 || ORIG_REF_NAME==mb_block_xlconcat_0_0} -quiet] -quiet
 
+# IP: bd/mb_block/ip/mb_block_axi_gpio_0_4/mb_block_axi_gpio_0_4.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_block_axi_gpio_0_4 || ORIG_REF_NAME==mb_block_axi_gpio_0_4} -quiet] -quiet
+
 # XDC: c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/mb_block_ooc.xdc

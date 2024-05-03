@@ -1,6 +1,6 @@
-04:56:05 **** Build of configuration Debug for project mb_ball_system ****
+11:49:36 **** Build of configuration Debug for project mb_ball_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-04:56:06 Build Finished (took 264ms)
+11:49:36 Build Finished (took 257ms)
 

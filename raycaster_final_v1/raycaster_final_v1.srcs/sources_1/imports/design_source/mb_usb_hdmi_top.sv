@@ -41,9 +41,10 @@ module mb_usb_hdmi_top(
 );
     
     logic [31:0] keycode0_gpio, keycode1_gpio;
+    logic [31:0] colData, colDataOut;
     logic clk_25MHz, clk_125MHz, clk, clk_100MHz;
     logic locked;
-    logic [9:0] drawX, drawY, ballxsig, ballysig, ballsizesig;
+    logic [9:0] drawX, drawY;
 
     logic hsync, vsync, vde;
     logic [3:0] red, green, blue;
@@ -75,6 +76,7 @@ module mb_usb_hdmi_top(
         .gpio_usb_keycode_0_tri_o(keycode0_gpio),
         .gpio_usb_keycode_1_tri_o(keycode1_gpio),
         .gpio_usb_rst_tri_o(gpio_usb_rst_tri_o),
+        .gpio_coldata_out_tri_o(colData),
         .reset_rtl_0(~reset_ah), //Block designs expect active low reset, all other modules are active high
         .uart_rtl_0_rxd(uart_rtl_0_rxd),
         .uart_rtl_0_txd(uart_rtl_0_txd),
@@ -133,8 +135,23 @@ module mb_usb_hdmi_top(
         .TMDS_DATA_N(hdmi_tmds_data_n)          
     );
 
+    dframe_buf frame_buffer(
+        .Clk(clk_25MHz),
+        .colDataIn(colData),
+        .vga_y_in(drawY),
+        .colDataOut(colDataOut)
+    );
+    
+    line_colorer line_colorer_inst(
+        .colDataOut(colDataOut),
+        .vga_x_in(drawX),
+        .red(red),
+        .green(green),
+        .blue(blue)
+    );
     
     //Ball Module
+    /*
     ball ball_instance(
         .Reset(reset_ah),
         .frame_clk(vsync),                    //Figure out what this should be so that the ball will move
@@ -143,6 +160,7 @@ module mb_usb_hdmi_top(
         .BallY(ballysig),
         .BallS(ballsizesig)
     );
+    
     
     //Color Mapper Module   
     color_mapper color_instance(
@@ -155,5 +173,6 @@ module mb_usb_hdmi_top(
         .Green(green),
         .Blue(blue)
     );
+    */
     
 endmodule

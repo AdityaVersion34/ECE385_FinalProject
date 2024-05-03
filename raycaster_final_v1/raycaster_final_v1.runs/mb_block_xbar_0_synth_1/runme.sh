@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Aditya/ece385/lab6_2/lab6_2.runs/mb_block_xbar_0_synth_1'
+HD_PWD='C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/mb_block_xbar_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

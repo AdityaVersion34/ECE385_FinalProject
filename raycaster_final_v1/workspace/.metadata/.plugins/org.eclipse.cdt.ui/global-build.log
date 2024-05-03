@@ -1,26 +1,7 @@
-xsct% XSDB Server Channel: tcfchan#192
-Cleaning the BSP for domain  - standalone_microblaze_0
-make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
-
-make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
-
-make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
-
-make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
-
-make -C microblaze_0/libsrc/spi_v4_9/src -s clean 
-
-make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
-
-make -C microblaze_0/libsrc/tmrctr_v4_9/src -s clean 
-
-make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
-
-rm -f microblaze_0/lib/libxil.a
-
-04:55:44 **** Build of project mb_usb_hdmi_top ****
-buildplatform.bat 51418 mb_usb_hdmi_top  
-XSDB Server Channel: tcfchan#193
+11:49:11 **** Build of project mb_usb_hdmi_top ****
+buildplatform.bat 65418 mb_usb_hdmi_top  
+XSDB Server Channel: tcfchan#5
+C:/Xilinx/Vitis/2022.2/gnu/microblaze/nt
 Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
 make --no-print-directory seq_libs
 
@@ -163,7 +144,7 @@ xuartlite_stats.o
 mb-ar: creating microblaze_0/lib/libxil.a
 'Finished building libraries'
 
-04:56:01 **** Build of configuration Debug for project mb_ball ****
+11:49:31 **** Build of configuration Debug for project mb_ball ****
 make all 
 'Building file: ../src/lw_usb/HID.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -229,31 +210,34 @@ mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lw_usb/transfer.o" -IC:/Users
 'Building file: ../src/lw_usb_main.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lw_usb_main.o" -IC:/Users/Aditya/ece385/lab6_2/ball_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lw_usb_main.d" -MT"src/lw_usb_main.o" -o "src/lw_usb_main.o" "../src/lw_usb_main.c"
+../src/lw_usb_main.c:26:28: warning: initialization of 'volatile u32 *' {aka 'volatile long unsigned int *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   26 | volatile u32* colOutAddr = 0x40030000;          //store the column output gpio address
+      |                            ^~~~~~~~~~
 ../src/lw_usb_main.c: In function 'main':
-../src/lw_usb_main.c:216:83: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
-  216 |                                         distToNextx = (castRayx == 0) ? INT_MAX : abs((1<<(SHIFT_BY*2))/castRayx);
+../src/lw_usb_main.c:220:83: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  220 |                                         distToNextx = (castRayx == 0) ? INT_MAX : abs((1<<(SHIFT_BY*2))/castRayx);
       |                                                                                   ^~~
 ../src/lw_usb_main.c:15:1: note: include '<stdlib.h>' or provide a declaration of 'abs'
    14 | #include <math.h>
   +++ |+#include <stdlib.h>
    15 | 
-../src/lw_usb_main.c:224:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
-  224 |                                                 distFromx = ((xpos - truncXpos<<SHIFT_BY)*distToNextx)>>SHIFT_BY;
+../src/lw_usb_main.c:228:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  228 |                                                 distFromx = ((xpos - truncXpos<<SHIFT_BY)*distToNextx)>>SHIFT_BY;
       |                                                               ~~~~~^~~~~~~~~~~
-../src/lw_usb_main.c:227:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
-  227 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
+../src/lw_usb_main.c:231:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  231 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
       |                                                                                                  ^
-../src/lw_usb_main.c:227:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
-  227 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
+../src/lw_usb_main.c:231:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+  231 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
       |                                                                           ^
-../src/lw_usb_main.c:232:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
-  232 |                                                 distFromy = ((ypos - truncYpos<<SHIFT_BY)*distToNexty)>>SHIFT_BY;
+../src/lw_usb_main.c:236:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  236 |                                                 distFromy = ((ypos - truncYpos<<SHIFT_BY)*distToNexty)>>SHIFT_BY;
       |                                                               ~~~~~^~~~~~~~~~~
-../src/lw_usb_main.c:235:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
-  235 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
+../src/lw_usb_main.c:239:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  239 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
       |                                                                                                  ^
-../src/lw_usb_main.c:235:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
-  235 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
+../src/lw_usb_main.c:239:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+  239 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
       |                                                                           ^
 'Finished building: ../src/lw_usb_main.c'
 ' '
@@ -270,9 +254,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Aditya/ece385/lab6_2/ball_workspa
 'Invoking: MicroBlaze Print Size'
 mb-size mb_ball.elf  |tee "mb_ball.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25620	    488	   6748	  32856	   8058	mb_ball.elf
+  25660	    492	   6752	  32904	   8088	mb_ball.elf
 'Finished building: mb_ball.elf.size'
 ' '
-04:56:05 **** Build of configuration Debug for project mb_ball_system ****
+11:49:36 **** Build of configuration Debug for project mb_ball_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

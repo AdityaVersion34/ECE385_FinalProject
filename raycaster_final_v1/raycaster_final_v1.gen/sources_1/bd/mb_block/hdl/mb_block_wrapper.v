@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-//Date        : Thu May  2 23:28:11 2024
+//Date        : Fri May  3 07:40:02 2024
 //Host        : LAPTOP-PDE9G6A6 running 64-bit major release  (build 9200)
 //Command     : generate_target mb_block_wrapper.bd
 //Design      : mb_block_wrapper
@@ -11,6 +11,7 @@
 
 module mb_block_wrapper
    (clk_100MHz,
+    gpio_coldata_out_tri_o,
     gpio_usb_int_tri_i,
     gpio_usb_keycode_0_tri_io,
     gpio_usb_keycode_1_tri_io,
@@ -23,6 +24,7 @@ module mb_block_wrapper
     usb_spi_sclk,
     usb_spi_ss);
   input clk_100MHz;
+  output [31:0]gpio_coldata_out_tri_o;
   input [0:0]gpio_usb_int_tri_i;
   inout [31:0]gpio_usb_keycode_0_tri_io;
   inout [31:0]gpio_usb_keycode_1_tri_io;
@@ -36,6 +38,7 @@ module mb_block_wrapper
   output [0:0]usb_spi_ss;
 
   wire clk_100MHz;
+  wire [31:0]gpio_coldata_out_tri_o;
   wire [0:0]gpio_usb_int_tri_i;
   wire [0:0]gpio_usb_keycode_0_tri_i_0;
   wire [1:1]gpio_usb_keycode_0_tri_i_1;
@@ -624,6 +627,7 @@ module mb_block_wrapper
         .T(gpio_usb_keycode_1_tri_t_9));
   mb_block mb_block_i
        (.clk_100MHz(clk_100MHz),
+        .gpio_coldata_out_tri_o(gpio_coldata_out_tri_o),
         .gpio_usb_int_tri_i(gpio_usb_int_tri_i),
         .gpio_usb_keycode_0_tri_i({gpio_usb_keycode_0_tri_i_31,gpio_usb_keycode_0_tri_i_30,gpio_usb_keycode_0_tri_i_29,gpio_usb_keycode_0_tri_i_28,gpio_usb_keycode_0_tri_i_27,gpio_usb_keycode_0_tri_i_26,gpio_usb_keycode_0_tri_i_25,gpio_usb_keycode_0_tri_i_24,gpio_usb_keycode_0_tri_i_23,gpio_usb_keycode_0_tri_i_22,gpio_usb_keycode_0_tri_i_21,gpio_usb_keycode_0_tri_i_20,gpio_usb_keycode_0_tri_i_19,gpio_usb_keycode_0_tri_i_18,gpio_usb_keycode_0_tri_i_17,gpio_usb_keycode_0_tri_i_16,gpio_usb_keycode_0_tri_i_15,gpio_usb_keycode_0_tri_i_14,gpio_usb_keycode_0_tri_i_13,gpio_usb_keycode_0_tri_i_12,gpio_usb_keycode_0_tri_i_11,gpio_usb_keycode_0_tri_i_10,gpio_usb_keycode_0_tri_i_9,gpio_usb_keycode_0_tri_i_8,gpio_usb_keycode_0_tri_i_7,gpio_usb_keycode_0_tri_i_6,gpio_usb_keycode_0_tri_i_5,gpio_usb_keycode_0_tri_i_4,gpio_usb_keycode_0_tri_i_3,gpio_usb_keycode_0_tri_i_2,gpio_usb_keycode_0_tri_i_1,gpio_usb_keycode_0_tri_i_0}),
         .gpio_usb_keycode_0_tri_o({gpio_usb_keycode_0_tri_o_31,gpio_usb_keycode_0_tri_o_30,gpio_usb_keycode_0_tri_o_29,gpio_usb_keycode_0_tri_o_28,gpio_usb_keycode_0_tri_o_27,gpio_usb_keycode_0_tri_o_26,gpio_usb_keycode_0_tri_o_25,gpio_usb_keycode_0_tri_o_24,gpio_usb_keycode_0_tri_o_23,gpio_usb_keycode_0_tri_o_22,gpio_usb_keycode_0_tri_o_21,gpio_usb_keycode_0_tri_o_20,gpio_usb_keycode_0_tri_o_19,gpio_usb_keycode_0_tri_o_18,gpio_usb_keycode_0_tri_o_17,gpio_usb_keycode_0_tri_o_16,gpio_usb_keycode_0_tri_o_15,gpio_usb_keycode_0_tri_o_14,gpio_usb_keycode_0_tri_o_13,gpio_usb_keycode_0_tri_o_12,gpio_usb_keycode_0_tri_o_11,gpio_usb_keycode_0_tri_o_10,gpio_usb_keycode_0_tri_o_9,gpio_usb_keycode_0_tri_o_8,gpio_usb_keycode_0_tri_o_7,gpio_usb_keycode_0_tri_o_6,gpio_usb_keycode_0_tri_o_5,gpio_usb_keycode_0_tri_o_4,gpio_usb_keycode_0_tri_o_3,gpio_usb_keycode_0_tri_o_2,gpio_usb_keycode_0_tri_o_1,gpio_usb_keycode_0_tri_o_0}),

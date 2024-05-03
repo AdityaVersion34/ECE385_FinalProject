@@ -567,7 +567,7 @@
 /******************************************************************/
 
 /* Definitions for driver GPIO */
-#define XPAR_XGPIO_NUM_INSTANCES 3
+#define XPAR_XGPIO_NUM_INSTANCES 4
 
 /* Definitions for peripheral GPIO_USB_INT */
 #define XPAR_GPIO_USB_INT_BASEADDR 0x40000000
@@ -593,6 +593,14 @@
 #define XPAR_GPIO_USB_RST_IS_DUAL 0
 
 
+/* Definitions for peripheral GPIO_COLUMN_DATA */
+#define XPAR_GPIO_COLUMN_DATA_BASEADDR 0x40030000
+#define XPAR_GPIO_COLUMN_DATA_HIGHADDR 0x4003FFFF
+#define XPAR_GPIO_COLUMN_DATA_DEVICE_ID 3
+#define XPAR_GPIO_COLUMN_DATA_INTERRUPT_PRESENT 0
+#define XPAR_GPIO_COLUMN_DATA_IS_DUAL 0
+
+
 /******************************************************************/
 
 /* Canonical definitions for peripheral GPIO_USB_INT */
@@ -615,6 +623,13 @@
 #define XPAR_GPIO_2_DEVICE_ID XPAR_GPIO_USB_RST_DEVICE_ID
 #define XPAR_GPIO_2_INTERRUPT_PRESENT 0
 #define XPAR_GPIO_2_IS_DUAL 0
+
+/* Canonical definitions for peripheral GPIO_COLUMN_DATA */
+#define XPAR_GPIO_3_BASEADDR 0x40030000
+#define XPAR_GPIO_3_HIGHADDR 0x4003FFFF
+#define XPAR_GPIO_3_DEVICE_ID XPAR_GPIO_COLUMN_DATA_DEVICE_ID
+#define XPAR_GPIO_3_INTERRUPT_PRESENT 0
+#define XPAR_GPIO_3_IS_DUAL 0
 
 
 /******************************************************************/

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7s50csga324-1" LaunchTime="1714710495">
+<GenRun Id="impl_1" LaunchPart="xc7s50csga324-1" LaunchTime="1714760171">
   <File Type="ROUTE-PWR" Name="mb_usb_hdmi_top_power_routed.rpt"/>
   <File Type="PA-TCL" Name="mb_usb_hdmi_top.tcl"/>
   <File Type="BITSTR-MMI" Name="mb_usb_hdmi_top.mmi"/>
@@ -90,15 +90,6 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/design_source/Color_Mapper.sv">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/lab6_2_provided/design_source/Color_Mapper.sv"/>
-        <Attr Name="ImportTime" Val="1702797402"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/imports/design_source/VGA_controller.sv">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/lab6_2_provided/design_source/VGA_controller.sv"/>
@@ -108,10 +99,8 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/design_source/ball.sv">
+    <File Path="$PSRCDIR/sources_1/new/dframe_buf.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/lab6_2_provided/design_source/ball.sv"/>
-        <Attr Name="ImportTime" Val="1709236571"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -126,10 +115,37 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/line_colorer.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/design_source/mb_usb_hdmi_top.sv">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/lab6_2_provided/design_source/mb_usb_hdmi_top.sv"/>
         <Attr Name="ImportTime" Val="1709236815"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design_source/Color_Mapper.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/lab6_2_provided/design_source/Color_Mapper.sv"/>
+        <Attr Name="ImportTime" Val="1702797402"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design_source/ball.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/lab6_2_provided/design_source/ball.sv"/>
+        <Attr Name="ImportTime" Val="1709236571"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -150,6 +166,14 @@
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PPRDIR/../../lab6_2/lab6_2.gen/sources_1/bd/mb_block/hdl/mb_block_wrapper.v"/>
         <Attr Name="ImportTime" Val="1711229526"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/mb_block/hdl/mb_block_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -220,4 +244,5 @@
   <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_quad_spi_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_timer_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_gpio_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_gpio_0_4"/>
 </GenRun>

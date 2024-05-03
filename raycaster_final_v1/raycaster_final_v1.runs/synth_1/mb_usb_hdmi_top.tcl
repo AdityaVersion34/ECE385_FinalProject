@@ -70,7 +70,11 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param checkpoint.writeSynthRtdsInDcp 1
 set_param chipscope.maxJobs 2
+set_param synth.incrementalSynthesisCache C:/Users/Aditya/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-50576-LAPTOP-PDE9G6A6/incrSyn
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7s50csga324-1
 
@@ -90,10 +94,10 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/Color_Mapper.sv
   C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/VGA_controller.sv
-  C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/ball.sv
+  C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/new/dframe_buf.sv
   C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/hex_driver.sv
+  C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/new/line_colorer.sv
   C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv
 }
 add_files C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.srcs/sources_1/bd/mb_block/mb_block.bd
@@ -135,6 +139,9 @@ set_property used_in_implementation false [get_files -all c:/Users/Aditya/ece385
 set_property used_in_implementation false [get_files -all c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_quad_spi_0_0/mb_block_axi_quad_spi_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_quad_spi_0_0/mb_block_axi_quad_spi_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_quad_spi_0_0/mb_block_axi_quad_spi_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_0_4/mb_block_axi_gpio_0_4_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_0_4/mb_block_axi_gpio_0_4_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_0_4/mb_block_axi_gpio_0_4.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/mb_block_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_0/data/mb_bootloop_le.elf]
 
