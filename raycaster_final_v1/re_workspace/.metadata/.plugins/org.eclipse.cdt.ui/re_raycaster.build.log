@@ -1,4 +1,4 @@
-13:52:01 **** Build of configuration Debug for project re_raycaster ****
+15:42:30 **** Build of configuration Debug for project re_raycaster ****
 make all 
 'Building file: ../src/lw_usb/HID.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -68,30 +68,30 @@ mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lw_usb_main.o" -IC:/Users/Adi
    26 | volatile u32* colOutAddr = 0x40030000;          //store the column output gpio address
       |                            ^~~~~~~~~~
 ../src/lw_usb_main.c: In function 'main':
-../src/lw_usb_main.c:220:83: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
-  220 |                                         distToNextx = (castRayx == 0) ? INT_MAX : abs((1<<(SHIFT_BY*2))/castRayx);
+../src/lw_usb_main.c:223:83: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  223 |                                         distToNextx = (castRayx == 0) ? INT_MAX : abs((1<<(SHIFT_BY*2))/castRayx);
       |                                                                                   ^~~
 ../src/lw_usb_main.c:15:1: note: include '<stdlib.h>' or provide a declaration of 'abs'
    14 | #include <math.h>
   +++ |+#include <stdlib.h>
    15 | 
-../src/lw_usb_main.c:228:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
-  228 |                                                 distFromx = ((xpos - truncXpos<<SHIFT_BY)*distToNextx)>>SHIFT_BY;
+../src/lw_usb_main.c:232:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  232 |                                                 distFromx = ((xpos - truncXpos<<SHIFT_BY)*distToNextx)>>SHIFT_BY;
       |                                                               ~~~~~^~~~~~~~~~~
-../src/lw_usb_main.c:231:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
-  231 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
+../src/lw_usb_main.c:235:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  235 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
       |                                                                                                  ^
-../src/lw_usb_main.c:231:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
-  231 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
+../src/lw_usb_main.c:235:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+  235 |                                                 distFromx = ((1<<SHIFT_BY + (truncXpos<<SHIFT_BY - xpos))*distToNextx)>>SHIFT_BY;
       |                                                                           ^
-../src/lw_usb_main.c:236:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
-  236 |                                                 distFromy = ((ypos - truncYpos<<SHIFT_BY)*distToNexty)>>SHIFT_BY;
+../src/lw_usb_main.c:240:68: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  240 |                                                 distFromy = ((ypos - truncYpos<<SHIFT_BY)*distToNexty)>>SHIFT_BY;
       |                                                               ~~~~~^~~~~~~~~~~
-../src/lw_usb_main.c:239:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
-  239 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
+../src/lw_usb_main.c:243:98: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+  243 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
       |                                                                                                  ^
-../src/lw_usb_main.c:239:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
-  239 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
+../src/lw_usb_main.c:243:75: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+  243 |                                                 distFromy = ((1<<SHIFT_BY + (truncYpos<<SHIFT_BY - ypos))*distToNexty)>>SHIFT_BY;
       |                                                                           ^
 'Finished building: ../src/lw_usb_main.c'
 ' '
@@ -108,9 +108,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Aditya/ece385/final_project/rayca
 'Invoking: MicroBlaze Print Size'
 mb-size re_raycaster.elf  |tee "re_raycaster.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25996	    508	   6752	  33256	   81e8	re_raycaster.elf
+  31948	    508	   6752	  39208	   9928	re_raycaster.elf
 'Finished building: re_raycaster.elf.size'
 ' '
 
-13:52:06 Build Finished (took 4s.422ms)
+15:42:36 Build Finished (took 6s.331ms)
 

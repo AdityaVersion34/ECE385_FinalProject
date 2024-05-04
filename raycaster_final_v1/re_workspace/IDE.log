@@ -549,3 +549,687 @@ con
 ----------------End of Script----------------
 
 13:52:16 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:02:20 INFO  : Result from executing command 'removePlatformRepo': 
+14:02:45 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:02:45 INFO  : Result from executing command 'getPlatforms': 
+14:02:46 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:03:15 INFO  : Disconnected from the channel tcfchan#40.
+14:03:27 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:03:49 INFO  : Result from executing command 'removePlatformRepo': 
+14:04:12 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:04:12 INFO  : Result from executing command 'getPlatforms': 
+14:04:12 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:05:41 INFO  : Result from executing command 'removePlatformRepo': 
+14:06:10 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:06:10 INFO  : Result from executing command 'getPlatforms': 
+14:06:10 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:06:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:06:23 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:06:23 INFO  : 'jtag frequency' command is executed.
+14:06:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:06:24 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:06:24 INFO  : Context for processor 'microblaze_0' is selected.
+14:06:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:06:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:06:24 INFO  : Context for processor 'microblaze_0' is selected.
+14:06:24 INFO  : System reset is completed.
+14:06:27 INFO  : 'after 3000' command is executed.
+14:06:27 INFO  : Context for processor 'microblaze_0' is selected.
+14:06:27 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:06:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:06:28 INFO  : Context for processor 'microblaze_0' is selected.
+14:06:28 INFO  : 'con' command is executed.
+14:06:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:06:28 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:09:12 INFO  : Result from executing command 'removePlatformRepo': 
+14:09:52 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+14:10:13 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:10:13 INFO  : Result from executing command 'getPlatforms': 
+14:10:14 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:10:33 INFO  : Disconnected from the channel tcfchan#47.
+14:10:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:10:34 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:10:34 INFO  : 'jtag frequency' command is executed.
+14:10:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:10:35 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:10:35 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:10:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:10:35 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:35 INFO  : System reset is completed.
+14:10:38 INFO  : 'after 3000' command is executed.
+14:10:38 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:39 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:10:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:10:39 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:39 INFO  : 'con' command is executed.
+14:10:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:10:39 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:12:07 INFO  : Disconnected from the channel tcfchan#51.
+14:12:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:12:07 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:12:07 INFO  : 'jtag frequency' command is executed.
+14:12:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:12:09 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:12:09 INFO  : Context for processor 'microblaze_0' is selected.
+14:12:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:12:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:12:09 INFO  : Context for processor 'microblaze_0' is selected.
+14:12:09 INFO  : System reset is completed.
+14:12:12 INFO  : 'after 3000' command is executed.
+14:12:12 INFO  : Context for processor 'microblaze_0' is selected.
+14:12:12 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:12:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:12:12 INFO  : Context for processor 'microblaze_0' is selected.
+14:12:12 INFO  : 'con' command is executed.
+14:12:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:12:12 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:14:20 INFO  : Result from executing command 'removePlatformRepo': 
+14:14:57 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:14:57 INFO  : Result from executing command 'getPlatforms': 
+14:14:58 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:15:08 INFO  : Disconnected from the channel tcfchan#52.
+14:15:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:15:08 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:15:08 INFO  : 'jtag frequency' command is executed.
+14:15:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:15:10 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:15:10 INFO  : Context for processor 'microblaze_0' is selected.
+14:15:10 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:15:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:15:10 INFO  : Context for processor 'microblaze_0' is selected.
+14:15:10 INFO  : System reset is completed.
+14:15:13 INFO  : 'after 3000' command is executed.
+14:15:13 INFO  : Context for processor 'microblaze_0' is selected.
+14:15:13 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:15:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:15:13 INFO  : Context for processor 'microblaze_0' is selected.
+14:15:13 INFO  : 'con' command is executed.
+14:15:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:15:13 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:17:45 INFO  : Result from executing command 'removePlatformRepo': 
+14:18:25 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:18:25 INFO  : Result from executing command 'getPlatforms': 
+14:18:26 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:18:35 INFO  : Disconnected from the channel tcfchan#55.
+14:18:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:18:35 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:18:35 INFO  : 'jtag frequency' command is executed.
+14:18:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:18:37 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:18:37 INFO  : Context for processor 'microblaze_0' is selected.
+14:18:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:18:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:18:37 INFO  : Context for processor 'microblaze_0' is selected.
+14:18:37 INFO  : System reset is completed.
+14:18:40 INFO  : 'after 3000' command is executed.
+14:18:40 INFO  : Context for processor 'microblaze_0' is selected.
+14:18:40 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:18:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:18:40 INFO  : Context for processor 'microblaze_0' is selected.
+14:18:40 INFO  : 'con' command is executed.
+14:18:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:18:40 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:27:05 INFO  : Result from executing command 'removePlatformRepo': 
+14:28:01 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:28:01 INFO  : Result from executing command 'getPlatforms': 
+14:28:02 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:28:18 INFO  : Disconnected from the channel tcfchan#58.
+14:28:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:28:18 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:28:18 INFO  : 'jtag frequency' command is executed.
+14:28:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:28:20 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:28:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:28:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:28:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:28:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:28:20 INFO  : System reset is completed.
+14:28:23 INFO  : 'after 3000' command is executed.
+14:28:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:28:23 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:28:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:28:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:28:23 INFO  : 'con' command is executed.
+14:28:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:28:23 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:30:46 INFO  : Result from executing command 'removePlatformRepo': 
+14:31:09 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:31:09 INFO  : Result from executing command 'getPlatforms': 
+14:31:10 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:31:18 INFO  : Disconnected from the channel tcfchan#61.
+14:31:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:31:19 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:31:19 INFO  : 'jtag frequency' command is executed.
+14:31:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:31:20 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:31:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:31:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:31:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:31:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:31:20 INFO  : System reset is completed.
+14:31:23 INFO  : 'after 3000' command is executed.
+14:31:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:31:23 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:31:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:31:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:31:23 INFO  : 'con' command is executed.
+14:31:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:31:23 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:35:23 INFO  : Result from executing command 'removePlatformRepo': 
+14:35:32 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+14:35:55 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:35:55 INFO  : Result from executing command 'getPlatforms': 
+14:35:55 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:36:35 INFO  : Result from executing command 'removePlatformRepo': 
+14:36:58 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:36:58 INFO  : Result from executing command 'getPlatforms': 
+14:36:59 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:37:09 INFO  : Disconnected from the channel tcfchan#64.
+14:37:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:37:09 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:37:09 INFO  : 'jtag frequency' command is executed.
+14:37:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:37:11 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:37:11 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:37:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:37:11 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:11 INFO  : System reset is completed.
+14:37:14 INFO  : 'after 3000' command is executed.
+14:37:14 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:14 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:37:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:37:14 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:14 INFO  : 'con' command is executed.
+14:37:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:37:14 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:39:51 INFO  : Result from executing command 'removePlatformRepo': 
+14:40:17 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:40:17 INFO  : Result from executing command 'getPlatforms': 
+14:40:17 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:40:40 INFO  : Disconnected from the channel tcfchan#70.
+14:40:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:40:40 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:40:40 INFO  : 'jtag frequency' command is executed.
+14:40:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:40:41 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:40:41 INFO  : Context for processor 'microblaze_0' is selected.
+14:40:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:40:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:40:42 INFO  : Context for processor 'microblaze_0' is selected.
+14:40:42 INFO  : System reset is completed.
+14:40:45 INFO  : 'after 3000' command is executed.
+14:40:45 INFO  : Context for processor 'microblaze_0' is selected.
+14:40:45 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:40:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:40:45 INFO  : Context for processor 'microblaze_0' is selected.
+14:40:45 INFO  : 'con' command is executed.
+14:40:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:40:45 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:49:46 INFO  : Result from executing command 'removePlatformRepo': 
+14:50:09 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:50:09 INFO  : Result from executing command 'getPlatforms': 
+14:50:09 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:50:23 INFO  : Disconnected from the channel tcfchan#73.
+14:50:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:50:23 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:50:23 INFO  : 'jtag frequency' command is executed.
+14:50:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:50:24 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:50:24 INFO  : Context for processor 'microblaze_0' is selected.
+14:50:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:50:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:50:24 INFO  : Context for processor 'microblaze_0' is selected.
+14:50:24 INFO  : System reset is completed.
+14:50:27 INFO  : 'after 3000' command is executed.
+14:50:27 INFO  : Context for processor 'microblaze_0' is selected.
+14:50:28 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:50:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:50:28 INFO  : Context for processor 'microblaze_0' is selected.
+14:50:28 INFO  : 'con' command is executed.
+14:50:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:50:28 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:53:43 INFO  : Result from executing command 'removePlatformRepo': 
+14:54:11 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+14:54:11 INFO  : Result from executing command 'getPlatforms': 
+14:54:12 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+14:54:27 INFO  : Disconnected from the channel tcfchan#76.
+14:54:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:54:27 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+14:54:27 INFO  : 'jtag frequency' command is executed.
+14:54:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:54:29 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+14:54:29 INFO  : Context for processor 'microblaze_0' is selected.
+14:54:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+14:54:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:54:29 INFO  : Context for processor 'microblaze_0' is selected.
+14:54:29 INFO  : System reset is completed.
+14:54:32 INFO  : 'after 3000' command is executed.
+14:54:32 INFO  : Context for processor 'microblaze_0' is selected.
+14:54:32 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+14:54:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+14:54:32 INFO  : Context for processor 'microblaze_0' is selected.
+14:54:32 INFO  : 'con' command is executed.
+14:54:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:54:32 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+14:59:42 INFO  : Result from executing command 'removePlatformRepo': 
+15:00:06 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+15:00:06 INFO  : Result from executing command 'getPlatforms': 
+15:00:06 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+15:00:17 INFO  : Disconnected from the channel tcfchan#79.
+15:00:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:00:17 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+15:00:17 INFO  : 'jtag frequency' command is executed.
+15:00:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+15:00:18 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+15:00:18 INFO  : Context for processor 'microblaze_0' is selected.
+15:00:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+15:00:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:00:19 INFO  : Context for processor 'microblaze_0' is selected.
+15:00:19 INFO  : System reset is completed.
+15:00:22 INFO  : 'after 3000' command is executed.
+15:00:22 INFO  : Context for processor 'microblaze_0' is selected.
+15:00:22 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+15:00:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+15:00:22 INFO  : Context for processor 'microblaze_0' is selected.
+15:00:22 INFO  : 'con' command is executed.
+15:00:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:00:22 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+15:02:16 INFO  : Result from executing command 'removePlatformRepo': 
+15:02:46 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+15:02:46 INFO  : Result from executing command 'getPlatforms': 
+15:02:46 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+15:02:56 INFO  : Disconnected from the channel tcfchan#82.
+15:02:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:02:56 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+15:02:56 INFO  : 'jtag frequency' command is executed.
+15:02:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+15:02:58 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+15:02:58 INFO  : Context for processor 'microblaze_0' is selected.
+15:02:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+15:02:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:02:58 INFO  : Context for processor 'microblaze_0' is selected.
+15:02:58 INFO  : System reset is completed.
+15:03:01 INFO  : 'after 3000' command is executed.
+15:03:01 INFO  : Context for processor 'microblaze_0' is selected.
+15:03:01 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+15:03:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+15:03:01 INFO  : Context for processor 'microblaze_0' is selected.
+15:03:01 INFO  : 'con' command is executed.
+15:03:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:03:01 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+15:06:25 INFO  : Result from executing command 'removePlatformRepo': 
+15:06:49 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+15:06:49 INFO  : Result from executing command 'getPlatforms': 
+15:06:49 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+15:07:00 INFO  : Disconnected from the channel tcfchan#85.
+15:07:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:07:00 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+15:07:00 INFO  : 'jtag frequency' command is executed.
+15:07:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+15:07:01 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+15:07:02 INFO  : Context for processor 'microblaze_0' is selected.
+15:07:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+15:07:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:07:02 INFO  : Context for processor 'microblaze_0' is selected.
+15:07:02 INFO  : System reset is completed.
+15:07:05 INFO  : 'after 3000' command is executed.
+15:07:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:07:05 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+15:07:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+15:07:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:07:05 INFO  : 'con' command is executed.
+15:07:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:07:05 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+15:26:01 INFO  : Disconnected from the channel tcfchan#88.
+15:26:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:26:02 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+15:26:02 INFO  : 'jtag frequency' command is executed.
+15:26:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+15:26:03 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+15:26:03 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+15:26:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:26:03 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:03 INFO  : System reset is completed.
+15:26:06 INFO  : 'after 3000' command is executed.
+15:26:06 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:07 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+15:26:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+15:26:07 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:07 INFO  : 'con' command is executed.
+15:26:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:26:07 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+15:41:45 INFO  : Result from executing command 'removePlatformRepo': 
+15:42:29 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+15:42:29 INFO  : Result from executing command 'getPlatforms': 
+15:42:29 INFO  : Checking for BSP changes to sync application flags for project 're_raycaster'...
+15:42:43 INFO  : Disconnected from the channel tcfchan#89.
+15:42:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:44 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+15:42:44 INFO  : 'jtag frequency' command is executed.
+15:42:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+15:42:45 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+15:42:45 INFO  : Context for processor 'microblaze_0' is selected.
+15:42:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+15:42:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:42:46 INFO  : Context for processor 'microblaze_0' is selected.
+15:42:46 INFO  : System reset is completed.
+15:42:49 INFO  : 'after 3000' command is executed.
+15:42:49 INFO  : Context for processor 'microblaze_0' is selected.
+15:42:49 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+15:42:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+15:42:49 INFO  : Context for processor 'microblaze_0' is selected.
+15:42:49 INFO  : 'con' command is executed.
+15:42:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:42:49 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+15:44:48 INFO  : Disconnected from the channel tcfchan#92.
+15:44:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:44:49 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+15:44:49 INFO  : 'jtag frequency' command is executed.
+15:44:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+15:44:51 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit"
+15:44:51 INFO  : Context for processor 'microblaze_0' is selected.
+15:44:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+15:44:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:44:51 INFO  : Context for processor 'microblaze_0' is selected.
+15:44:51 INFO  : System reset is completed.
+15:44:54 INFO  : 'after 3000' command is executed.
+15:44:55 INFO  : Context for processor 'microblaze_0' is selected.
+15:44:55 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf' is downloaded to processor 'microblaze_0'.
+15:44:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster/Debug/re_raycaster.elf
+----------------End of Script----------------
+
+15:44:55 INFO  : Context for processor 'microblaze_0' is selected.
+15:44:55 INFO  : 'con' command is executed.
+15:44:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:44:55 INFO  : Launch script is exported to file 'C:\Users\Aditya\ece385\final_project\raycaster_final_v1\re_workspace\re_raycaster_system\_ide\scripts\systemdebugger_re_raycaster_system_standalone.tcl'
+15:48:47 INFO  : Disconnected from the channel tcfchan#93.

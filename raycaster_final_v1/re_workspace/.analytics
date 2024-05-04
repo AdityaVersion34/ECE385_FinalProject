@@ -81,3 +81,110 @@ timestamp=[2024-05-03 13:51:06], mode=BUILD, duration=0:00:00.404, duration_ms=4
 timestamp=[2024-05-03 13:52:01], mode=PLATFORM_GENERATION, duration=0:00:16.031, duration_ms=16031, data={name=mb_usb_hdmi_top}
 timestamp=[2024-05-03 13:52:06], mode=BUILD, duration=0:00:04.441, duration_ms=4441, data={name=re_raycaster, configuration=Debug, clean_build=false}
 timestamp=[2024-05-03 13:52:07], mode=BUILD, duration=0:00:00.259, duration_ms=259, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:02:23], mode=PLATFORM_GENERATION, duration=0:00:06.344, duration_ms=6344, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:02:24], mode=BUILD, duration=0:00:00.444, duration_ms=444, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:02:24], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:02:46], mode=PLATFORM_GENERATION, duration=0:00:17.135, duration_ms=17135, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:02:49], mode=BUILD, duration=0:00:02.632, duration_ms=2632, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:03:28], mode=BUILD, duration=0:00:00.639, duration_ms=639, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:03:52], mode=PLATFORM_GENERATION, duration=0:00:06.336, duration_ms=6336, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:03:52], mode=BUILD, duration=0:00:00.456, duration_ms=456, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:03:53], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:04:12], mode=PLATFORM_GENERATION, duration=0:00:15.517, duration_ms=15517, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:04:15], mode=BUILD, duration=0:00:02.610, duration_ms=2610, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:05:45], mode=PLATFORM_GENERATION, duration=0:00:06.278, duration_ms=6278, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:05:45], mode=BUILD, duration=0:00:00.475, duration_ms=475, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:05:45], mode=BUILD, duration=0:00:00.315, duration_ms=315, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:06:10], mode=PLATFORM_GENERATION, duration=0:00:15.361, duration_ms=15361, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:06:14], mode=BUILD, duration=0:00:03.825, duration_ms=3825, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:06:15], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:09:15], mode=PLATFORM_GENERATION, duration=0:00:06.361, duration_ms=6361, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:09:15], mode=BUILD, duration=0:00:00.436, duration_ms=436, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:09:16], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:09:54], mode=PLATFORM_GENERATION, duration=0:00:05.003, duration_ms=5003, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:09:54], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:09:55], mode=BUILD, duration=0:00:00.308, duration_ms=308, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:10:14], mode=PLATFORM_GENERATION, duration=0:00:16.123, duration_ms=16123, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:10:18], mode=BUILD, duration=0:00:04.362, duration_ms=4362, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:10:19], mode=BUILD, duration=0:00:00.264, duration_ms=264, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:14:24], mode=PLATFORM_GENERATION, duration=0:00:07.234, duration_ms=7234, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:14:24], mode=BUILD, duration=0:00:00.481, duration_ms=481, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:14:25], mode=BUILD, duration=0:00:00.335, duration_ms=335, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:14:58], mode=PLATFORM_GENERATION, duration=0:00:17.308, duration_ms=17308, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:15:02], mode=BUILD, duration=0:00:04.021, duration_ms=4021, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:15:03], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:17:47], mode=PLATFORM_GENERATION, duration=0:00:06.183, duration_ms=6183, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:17:48], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:17:48], mode=BUILD, duration=0:00:00.337, duration_ms=337, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:18:26], mode=PLATFORM_GENERATION, duration=0:00:20.178, duration_ms=20178, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:18:30], mode=BUILD, duration=0:00:03.965, duration_ms=3965, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:18:31], mode=BUILD, duration=0:00:00.262, duration_ms=262, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:27:09], mode=PLATFORM_GENERATION, duration=0:00:07.632, duration_ms=7632, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:27:10], mode=BUILD, duration=0:00:00.726, duration_ms=726, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:27:10], mode=BUILD, duration=0:00:00.436, duration_ms=436, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:28:02], mode=PLATFORM_GENERATION, duration=0:00:24.524, duration_ms=24524, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:28:07], mode=BUILD, duration=0:00:05.000, duration_ms=5000, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:28:09], mode=BUILD, duration=0:00:00.311, duration_ms=311, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:30:49], mode=PLATFORM_GENERATION, duration=0:00:06.116, duration_ms=6116, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:30:49], mode=BUILD, duration=0:00:00.412, duration_ms=412, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:30:50], mode=BUILD, duration=0:00:00.309, duration_ms=309, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:31:10], mode=PLATFORM_GENERATION, duration=0:00:15.811, duration_ms=15811, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:31:14], mode=BUILD, duration=0:00:03.926, duration_ms=3926, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:31:15], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:35:26], mode=PLATFORM_GENERATION, duration=0:00:06.169, duration_ms=6169, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:35:26], mode=BUILD, duration=0:00:00.427, duration_ms=427, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:35:26], mode=BUILD, duration=0:00:00.375, duration_ms=375, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:35:34], mode=PLATFORM_GENERATION, duration=0:00:05.096, duration_ms=5096, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:35:34], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:35:35], mode=BUILD, duration=0:00:00.347, duration_ms=347, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:35:55], mode=PLATFORM_GENERATION, duration=0:00:15.864, duration_ms=15864, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:35:59], mode=BUILD, duration=0:00:03.806, duration_ms=3806, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:36:00], mode=BUILD, duration=0:00:00.382, duration_ms=382, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:36:38], mode=PLATFORM_GENERATION, duration=0:00:06.103, duration_ms=6103, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:36:39], mode=BUILD, duration=0:00:00.408, duration_ms=408, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:36:39], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:36:59], mode=PLATFORM_GENERATION, duration=0:00:15.902, duration_ms=15902, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:37:03], mode=BUILD, duration=0:00:04.560, duration_ms=4560, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:37:04], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:39:55], mode=PLATFORM_GENERATION, duration=0:00:06.692, duration_ms=6692, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:39:55], mode=BUILD, duration=0:00:00.391, duration_ms=391, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:39:55], mode=BUILD, duration=0:00:00.343, duration_ms=343, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:40:17], mode=PLATFORM_GENERATION, duration=0:00:16.241, duration_ms=16241, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:40:22], mode=BUILD, duration=0:00:04.133, duration_ms=4133, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:40:23], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:49:49], mode=PLATFORM_GENERATION, duration=0:00:06.096, duration_ms=6096, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:49:49], mode=BUILD, duration=0:00:00.411, duration_ms=411, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:49:49], mode=BUILD, duration=0:00:00.394, duration_ms=394, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:50:09], mode=PLATFORM_GENERATION, duration=0:00:15.416, duration_ms=15416, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:50:14], mode=BUILD, duration=0:00:04.277, duration_ms=4277, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:50:15], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:53:46], mode=PLATFORM_GENERATION, duration=0:00:06.129, duration_ms=6129, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:53:47], mode=BUILD, duration=0:00:00.375, duration_ms=375, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:53:47], mode=BUILD, duration=0:00:00.339, duration_ms=339, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:54:12], mode=PLATFORM_GENERATION, duration=0:00:17.517, duration_ms=17517, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:54:17], mode=BUILD, duration=0:00:05.209, duration_ms=5209, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:54:18], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:59:45], mode=PLATFORM_GENERATION, duration=0:00:06.073, duration_ms=6073, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 14:59:45], mode=BUILD, duration=0:00:00.497, duration_ms=497, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 14:59:46], mode=BUILD, duration=0:00:00.385, duration_ms=385, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 15:00:06], mode=PLATFORM_GENERATION, duration=0:00:17.141, duration_ms=17141, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 15:00:10], mode=BUILD, duration=0:00:03.927, duration_ms=3927, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:00:11], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:02:19], mode=PLATFORM_GENERATION, duration=0:00:06.401, duration_ms=6401, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 15:02:20], mode=BUILD, duration=0:00:00.434, duration_ms=434, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 15:02:20], mode=BUILD, duration=0:00:00.533, duration_ms=533, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 15:02:46], mode=PLATFORM_GENERATION, duration=0:00:17.039, duration_ms=17039, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 15:02:50], mode=BUILD, duration=0:00:04.231, duration_ms=4231, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:02:51], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:06:28], mode=PLATFORM_GENERATION, duration=0:00:06.377, duration_ms=6377, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 15:06:29], mode=BUILD, duration=0:00:00.444, duration_ms=444, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 15:06:29], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 15:06:49], mode=PLATFORM_GENERATION, duration=0:00:16.148, duration_ms=16148, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 15:06:53], mode=BUILD, duration=0:00:03.952, duration_ms=3952, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:06:54], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=re_raycaster_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:41:51], mode=PLATFORM_GENERATION, duration=0:00:13.357, duration_ms=13357, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 15:41:52], mode=BUILD, duration=0:00:00.904, duration_ms=904, data={name=re_raycaster, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 15:41:53], mode=BUILD, duration=0:00:00.762, duration_ms=762, data={name=re_raycaster_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 15:42:29], mode=PLATFORM_GENERATION, duration=0:00:29.999, duration_ms=29999, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 15:42:36], mode=BUILD, duration=0:00:06.377, duration_ms=6377, data={name=re_raycaster, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:42:37], mode=BUILD, duration=0:00:00.445, duration_ms=445, data={name=re_raycaster_system, configuration=Debug, clean_build=false}

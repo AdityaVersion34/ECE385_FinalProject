@@ -1,6 +1,6 @@
-2024-05-03T13:51:45.692520600255-13:51:45 **** Build of project mb_usb_hdmi_top ****
+2024-05-03T15:41:59.987263700255-15:41:59 **** Build of project mb_usb_hdmi_top ****
 000-buildplatform.bat 65505 mb_usb_hdmi_top  
-000-XSDB Server Channel: tcfchan#39
+000-XSDB Server Channel: tcfchan#91
 000-Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
 000-make --no-print-directory seq_libs
 000-
@@ -10,11 +10,11 @@
 000-
 000-"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
 000-
+000-"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+000-
 000-make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
 000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
 000-MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
-000-
-000-"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
 000-
 000-make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
 000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
@@ -58,11 +58,11 @@
 000-
 000-"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
 000-
+000-"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+000-
 000-make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
 000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
 000-LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
-000-
-000-"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
 000-
 000-make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
 000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
@@ -144,5 +144,5 @@
 000-'Finished building libraries'
 000-
 00255-
-13:52:01 Build Finished (took 15s.876ms)
+15:42:29 Build Finished (took 29s.708ms)
 

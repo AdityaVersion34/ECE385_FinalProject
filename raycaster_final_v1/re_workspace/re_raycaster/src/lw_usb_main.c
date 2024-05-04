@@ -84,21 +84,21 @@ int main() {
 	//making the game map
 	u8 gameMap[15][15] = 
 	{
-		{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+		{1,1,1,1,1,1,1,1,1,1,1,1,1,3,3},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,3},
 		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-		{1,0,0,0,0,2,0,2,0,2,2,0,2,0,1},
-		{1,0,2,0,2,0,0,0,0,0,0,0,2,0,1},
-		{1,0,2,0,0,0,0,0,0,0,2,0,2,0,1},
-		{1,0,2,0,0,0,0,0,0,0,0,0,2,0,1},
-		{1,0,2,0,0,0,0,0,0,0,0,0,2,0,1},
-		{1,0,2,0,0,0,0,0,0,0,0,0,2,0,1},
-		{1,0,2,0,0,0,0,0,0,2,0,0,2,0,1},
-		{1,0,2,0,0,0,0,0,0,0,0,0,2,0,1},
-		{1,0,2,2,2,2,0,0,2,2,2,2,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
 		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
 		{1,0,0,0,0,0,0,0,0,0,0,0,2,0,1},
 		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-		{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
+		{1,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{1,0,0,0,0,0,0,0,0,2,0,0,2,0,1},
+		{2,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
+		{2,2,1,1,1,1,1,1,1,1,1,1,1,1,1}
 	};
 
 	//defining and initializing position and direction variables. camera plane vector is tied to the dir vect
@@ -129,6 +129,9 @@ int main() {
 
 	int truncXpos;		//truncated x and y player positions - which map cell are we in
 	int truncYpos;
+
+	int oldxdir;		//temp variables used in rotation
+	int oldxcam;
 
 	u16 currentColHeight;	//height of the current pixel column
 
@@ -221,7 +224,8 @@ int main() {
 					distToNexty = (castRayy == 0) ? INT_MAX : abs((1<<(SHIFT_BY*2))/castRayy);
 
 					//xil_printf("before if conds \n");
-
+					distFromx = 0;
+					distFromy = 0;
 					//initializing which direction we're going in and initial relative distFrom values
 					if(castRayx < 0){		//for x axis
 						stepDirx = -1;
@@ -257,8 +261,8 @@ int main() {
 						}
 						//xil_printf("trunc pos (x,y): %d, %d\n", truncXpos, truncYpos);
 						//check if the truncated ray position is in a solid map area
-						if(gameMap[truncYpos][truncXpos] > 0){
-							isHit = gameMap[truncYpos][truncXpos];
+						if(gameMap[truncXpos][truncYpos] > 0){
+							isHit = gameMap[truncXpos][truncYpos];
 						}
 					}
 
@@ -267,9 +271,9 @@ int main() {
 					//calculating perpendicular distance of wall to camera to obtain correct dist
 					//refer lodev page for derivation
 					if(whichSide == 0){
-						perpDistFromCam = distFromx - distToNextx;
+						perpDistFromCam = abs(distFromx - distToNextx);
 					}else{
-						perpDistFromCam = distFromy - distToNexty;
+						perpDistFromCam = abs(distFromy - distToNexty);
 					}
 
 					//if collision is more common than expected, will add condition for div by 0
@@ -302,20 +306,38 @@ int main() {
 				//switch case on the first keycode to control movement and turning
 				switch(kbdbuf.keycode[0]){
 					case(0x1A):		//moving forward. need to check for collision
-						if(gameMap[(xpos + (xdir>>1))>>SHIFT_BY][ypos>>SHIFT_BY] == 0){		//check for x collision
-							xpos += (xdir>>1);
+						if(gameMap[(xpos + (xdir>>2))>>SHIFT_BY][ypos>>SHIFT_BY] == 0){		//check for x collision
+							xpos += (xdir>>2);
 						}
-						if(gameMap[xpos>>SHIFT_BY][(ypos + (ydir>>1))>>SHIFT_BY] == 0){		//check for y collision
-							ypos += (ydir>>1);
+						if(gameMap[xpos>>SHIFT_BY][(ypos + (ydir>>2))>>SHIFT_BY] == 0){		//check for y collision
+							ypos += (ydir>>2);
 						}
 						break;
-					case(0x16):
-						if(gameMap[(xpos - (xdir>>1))>>SHIFT_BY][ypos>>SHIFT_BY] == 0){		//check for x collision
-							xpos -= (xdir>>1);
+					case(0x16):		//moving backwards
+						if(gameMap[(xpos - (xdir>>2))>>SHIFT_BY][ypos>>SHIFT_BY] == 0){		//check for x collision
+							xpos -= (xdir>>2);
 						}
-						if(gameMap[xpos>>SHIFT_BY][(ypos - (ydir>>1))>>SHIFT_BY] == 0){		//check for y collision
-							ypos -= (ydir>>1);
+						if(gameMap[xpos>>SHIFT_BY][(ypos - (ydir>>2))>>SHIFT_BY] == 0){		//check for y collision
+							ypos -= (ydir>>2);
 						}
+						break;
+					case(0x07):		//turn right. rotate direction and camplane vects using rot matrix
+						oldxdir = xdir;
+						xdir = xdir*(cos(-0.1)) - ydir*(sin(-0.1));
+						ydir = oldxdir*(sin(-0.1)) + ydir*(cos(-0.1));
+
+						oldxcam = xcam;
+						xcam = xcam*(cos(-0.1)) - ycam*(sin(-0.1));
+						ycam = oldxcam*(sin(-0.1)) + ycam*(cos(-0.1));
+						break;
+					case(0x04):		//turn left
+						oldxdir = xdir;
+						xdir = xdir*(cos(0.1)) - ydir*(sin(0.1));
+						ydir = oldxdir*(sin(0.1)) + ydir*(cos(0.1));
+
+						oldxcam = xcam;
+						xcam = xcam*(cos(0.1)) - ycam*(sin(0.1));
+						ycam = oldxcam*(sin(0.1)) + ycam*(cos(0.1));
 						break;
 					default: break;
 				}
@@ -324,8 +346,9 @@ int main() {
 				
 				framecounter++;
 				if(framecounter%60 == 0){
-					xil_printf("<60 frames> \n");
+					xil_printf("%d, %d\n", (xpos>>SHIFT_BY), (ypos>>SHIFT_BY));
 				}
+				
 				
 			}
 
