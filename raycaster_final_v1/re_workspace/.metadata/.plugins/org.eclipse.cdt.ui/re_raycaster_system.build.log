@@ -1,0 +1,6 @@
+15:42:37 **** Build of configuration Debug for project re_raycaster_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+15:42:37 Build Finished (took 365ms)
+

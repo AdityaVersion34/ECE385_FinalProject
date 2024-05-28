@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Apr 26 19:37:08 2024
+# Process ID: 18380
+# Current directory: C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11768 C:\Users\Aditya\ece385\final_project\frame_buffer_interconnect\frame_buffer_interconnect.xpr
+# Log file: C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect/vivado.log
+# Journal file: C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect\vivado.jou
+# Running On: LAPTOP-PDE9G6A6, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 4, Host memory: 17044 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect/frame_buffer_interconnect.xpr
+open_project C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test.srcs/sources_1/bd/ddr3_controller/ddr3_controller.bd}
+open_project C:/Users/Aditya/ece385/lab7_1_real/lab7_1_real.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Aditya/ece385/lab7_1_real/lab7_1_real.srcs/sources_1/bd/char_disp/char_disp.bd}
+ipx::edit_ip_in_project -upgrade true -name hdmi_text_controller_v1_0_project -directory C:/Users/Aditya/ece385/lab7_1_real/lab7_1_real.tmp/hdmi_text_controller_v1_0_project c:/Users/Aditya/ece385/ip_repo/hdmi_text_controller_1_0/component.xml
+update_compile_order -fileset sources_1
+current_project lab7_1_real
+close_project
+file mkdir C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect/frame_buffer_interconnect.srcs/sources_1/new
+current_project frame_buffer_interconnect
+close [ open C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect/frame_buffer_interconnect.srcs/sources_1/new/interconnect_top.sv w ]
+add_files C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect/frame_buffer_interconnect.srcs/sources_1/new/interconnect_top.sv
+update_compile_order -fileset sources_1
+current_project ddr3test
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test.srcs/sources_1/bd/ddr3_controller/ddr3_controller.bd]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+open_bd_design {C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test.srcs/sources_1/bd/ddr3_controller/ddr3_controller.bd}
+current_project hdmi_text_controller_v1_0_project
+current_project ddr3test
+close_project
+open_project C:/Users/Aditya/ece385/lab6_2/lab6_2.xpr
+update_compile_order -fileset sources_1
+current_project hdmi_text_controller_v1_0_project
+current_project frame_buffer_interconnect
+close [ open C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect/frame_buffer_interconnect.srcs/sources_1/new/sender_handler.sv w ]
+add_files C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect/frame_buffer_interconnect.srcs/sources_1/new/sender_handler.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect/frame_buffer_interconnect.srcs/sources_1/new/rec_handler.sv w ]
+add_files C:/Users/Aditya/ece385/final_project/frame_buffer_interconnect/frame_buffer_interconnect.srcs/sources_1/new/rec_handler.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+update_compile_order -fileset sources_1
+refresh_design
+close_project
+save_project_as raycaster_final_v1 C:/Users/Aditya/ece385/final_project/raycaster_final_v1 -force
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/Users/Aditya/ece385/final_project/raycaster_final_v1/mb_usb_hdmi_top.xsa
+current_project hdmi_text_controller_v1_0_project
+close_project

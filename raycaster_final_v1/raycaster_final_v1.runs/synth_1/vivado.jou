@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri May  3 13:16:16 2024
+# Process ID: 59560
+# Current directory: C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1
+# Command line: vivado.exe -log mb_usb_hdmi_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_usb_hdmi_top.tcl
+# Log file: C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1/mb_usb_hdmi_top.vds
+# Journal file: C:/Users/Aditya/ece385/final_project/raycaster_final_v1/raycaster_final_v1.runs/synth_1\vivado.jou
+# Running On: LAPTOP-PDE9G6A6, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 4, Host memory: 17044 MB
+#-----------------------------------------------------------
+source mb_usb_hdmi_top.tcl -notrace

@@ -1,0 +1,187 @@
+05:47:32 DEBUG : Logs will be stored at 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/IDE.log'.
+05:47:36 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Aditya\ece385\final_project\ddr3_test\ddr3test\ddr3test_workspace\temp_xsdb_launch_script.tcl
+05:47:36 INFO  : Platform repository initialization has completed.
+05:47:36 INFO  : Registering command handlers for Vitis TCF services
+05:47:40 INFO  : XSCT server has started successfully.
+05:47:41 INFO  : Successfully done setting XSCT server connection channel  
+05:47:41 INFO  : plnx-install-location is set to ''
+05:47:41 INFO  : Successfully done query RDI_DATADIR 
+05:47:41 INFO  : Successfully done setting workspace for the tool. 
+05:52:18 INFO  : Result from executing command 'getProjects': mb_ddr3_top
+05:52:18 INFO  : Result from executing command 'getPlatforms': 
+05:52:18 WARN  : An unexpected exception occurred in the module 'platform project logging'
+05:52:18 INFO  : Platform 'mb_ddr3_top' is added to custom repositories.
+05:52:22 INFO  : Platform 'mb_ddr3_top' is added to custom repositories.
+05:53:12 INFO  : Result from executing command 'removePlatformRepo': 
+05:54:20 INFO  : Result from executing command 'getProjects': mb_ddr3_top
+05:54:20 INFO  : Result from executing command 'getPlatforms': 
+05:54:21 INFO  : Checking for BSP changes to sync application flags for project 'ddr3_test'...
+05:54:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:54:49 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+05:54:49 INFO  : 'jtag frequency' command is executed.
+05:54:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+05:54:50 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/ddr3_test/_ide/bitstream/mb_ddr3_top.bit"
+05:54:50 INFO  : Context for processor 'microblaze_0' is selected.
+05:54:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/hw/mb_ddr3_top.xsa'.
+05:54:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+05:54:51 INFO  : Context for processor 'microblaze_0' is selected.
+05:54:51 INFO  : System reset is completed.
+05:54:54 INFO  : 'after 3000' command is executed.
+05:54:54 INFO  : Context for processor 'microblaze_0' is selected.
+05:54:54 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+05:54:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/ddr3_test/_ide/bitstream/mb_ddr3_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/hw/mb_ddr3_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/ddr3_test/Debug/ddr3_test.elf
+----------------End of Script----------------
+
+05:54:54 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+06:16:01 INFO  : Hardware specification for platform project 'mb_ddr3_top' is updated.
+06:16:13 INFO  : Result from executing command 'removePlatformRepo': 
+06:17:06 INFO  : Result from executing command 'getProjects': mb_ddr3_top
+06:17:06 INFO  : Result from executing command 'getPlatforms': 
+06:17:07 INFO  : Checking for BSP changes to sync application flags for project 'ddr3_test'...
+06:17:10 INFO  : The hardware specification used by project 'ddr3_test' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+06:17:10 INFO  : The file 'C:\Users\Aditya\ece385\final_project\ddr3_test\ddr3test\ddr3test_workspace\ddr3_test\_ide\bitstream\mb_ddr3_top.bit' stored in project is removed.
+06:17:10 INFO  : The file 'C:\Users\Aditya\ece385\final_project\ddr3_test\ddr3test\ddr3test_workspace\ddr3_test\_ide\bitstream\mb_ddr3_top.mmi' stored in project is removed.
+06:17:10 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\Aditya\ece385\final_project\ddr3_test\ddr3test\ddr3test_workspace\ddr3_test\_ide\bitstream' in project 'ddr3_test'.
+06:17:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:17:22 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+06:17:22 INFO  : 'jtag frequency' command is executed.
+06:17:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+06:17:24 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/ddr3_test/_ide/bitstream/mb_ddr3_top.bit"
+06:17:24 INFO  : Context for processor 'microblaze_0' is selected.
+06:17:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/hw/mb_ddr3_top.xsa'.
+06:17:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+06:17:24 INFO  : Context for processor 'microblaze_0' is selected.
+06:17:24 INFO  : System reset is completed.
+06:17:27 INFO  : 'after 3000' command is executed.
+06:17:27 INFO  : Context for processor 'microblaze_0' is selected.
+06:17:27 INFO  : The application 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/ddr3_test/Debug/ddr3_test.elf' is downloaded to processor 'microblaze_0'.
+06:17:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/ddr3_test/_ide/bitstream/mb_ddr3_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/hw/mb_ddr3_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/ddr3_test/Debug/ddr3_test.elf
+----------------End of Script----------------
+
+06:17:27 INFO  : Context for processor 'microblaze_0' is selected.
+06:17:27 INFO  : 'con' command is executed.
+06:17:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+06:17:27 INFO  : Disconnected from the channel tcfchan#3.
+09:34:16 DEBUG : Logs will be stored at 'C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/IDE.log'.
+09:34:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Aditya\ece385\final_project\raycast_ddr3_v1\ddr3test\ddr3test_workspace\temp_xsdb_launch_script.tcl
+09:34:21 INFO  : XSCT server has started successfully.
+09:34:21 INFO  : plnx-install-location is set to ''
+09:34:21 INFO  : Successfully done setting XSCT server connection channel  
+09:34:21 INFO  : Successfully done setting workspace for the tool. 
+09:34:26 INFO  : Registering command handlers for Vitis TCF services
+09:34:26 INFO  : Platform repository initialization has completed.
+09:34:27 INFO  : Successfully done query RDI_DATADIR 
+09:35:03 INFO  : Hardware specification for platform project 'mb_ddr3_top' is updated.
+09:35:22 INFO  : Result from executing command 'removePlatformRepo': 
+09:35:52 INFO  : Result from executing command 'getProjects': mb_ddr3_top
+09:35:52 INFO  : Result from executing command 'getPlatforms': mb_ddr3_top|C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/mb_ddr3_top.xpfm
+09:35:52 INFO  : Checking for BSP changes to sync application flags for project 'ddr3_test'...
+09:36:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:36:37 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+09:36:37 INFO  : 'jtag frequency' command is executed.
+09:36:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+09:36:38 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/ddr3_test/_ide/bitstream/mb_ddr3_top.bit"
+09:36:38 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/hw/mb_ddr3_top.xsa'.
+09:36:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:36:38 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:38 INFO  : System reset is completed.
+09:36:41 INFO  : 'after 3000' command is executed.
+09:36:41 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:41 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/ddr3_test/Debug/ddr3_test.elf' is downloaded to processor 'microblaze_0'.
+09:36:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/ddr3_test/_ide/bitstream/mb_ddr3_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/hw/mb_ddr3_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/ddr3_test/Debug/ddr3_test.elf
+----------------End of Script----------------
+
+09:36:41 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:41 INFO  : 'con' command is executed.
+09:36:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:36:41 INFO  : Disconnected from the channel tcfchan#3.
+16:03:17 DEBUG : Logs will be stored at 'C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/IDE.log'.
+16:03:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Aditya\ece385\final_project\raycast_ddr3_v1\ddr3test\ddr3test_workspace\temp_xsdb_launch_script.tcl
+16:03:23 INFO  : XSCT server has started successfully.
+16:03:23 INFO  : Successfully done setting XSCT server connection channel  
+16:03:23 INFO  : plnx-install-location is set to ''
+16:03:23 INFO  : Successfully done setting workspace for the tool. 
+16:03:27 INFO  : Registering command handlers for Vitis TCF services
+16:03:27 INFO  : Platform repository initialization has completed.
+16:03:28 INFO  : Successfully done query RDI_DATADIR 
+16:08:21 INFO  : Result from executing command 'removePlatformRepo': 
+16:08:43 INFO  : Result from executing command 'getProjects': mb_ddr3_top
+16:08:43 INFO  : Result from executing command 'getPlatforms': mb_ddr3_top|C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/mb_ddr3_top.xpfm
+16:08:43 INFO  : Checking for BSP changes to sync application flags for project 'ddr3_test'...
+16:09:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:09:12 INFO  : Jtag cable 'RealDigital Boo 887429230027A' is selected.
+16:09:12 INFO  : 'jtag frequency' command is executed.
+16:09:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+16:09:13 INFO  : Device configured successfully with "C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/ddr3_test/_ide/bitstream/mb_ddr3_top.bit"
+16:09:13 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:14 INFO  : Hardware design and registers information is loaded from 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/hw/mb_ddr3_top.xsa'.
+16:09:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:09:14 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:14 INFO  : System reset is completed.
+16:09:17 INFO  : 'after 3000' command is executed.
+16:09:17 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:17 INFO  : The application 'C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/ddr3_test/Debug/ddr3_test.elf' is downloaded to processor 'microblaze_0'.
+16:09:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230027A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/ddr3_test/_ide/bitstream/mb_ddr3_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/mb_ddr3_top/export/mb_ddr3_top/hw/mb_ddr3_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Aditya/ece385/final_project/raycast_ddr3_v1/ddr3test/ddr3test_workspace/ddr3_test/Debug/ddr3_test.elf
+----------------End of Script----------------
+
+16:09:17 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:17 INFO  : 'con' command is executed.
+16:09:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:09:17 INFO  : Disconnected from the channel tcfchan#3.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="re_raycaster" location="C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/re_raycaster" platform="C:/Users/Aditya/ece385/final_project/raycaster_final_v1/re_workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/mb_usb_hdmi_top.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="re_raycaster_system" sysConfig="mb_usb_hdmi_top" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="5ce040c84237f203ea3128e8fc4637c5">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.429036669">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.349464321" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

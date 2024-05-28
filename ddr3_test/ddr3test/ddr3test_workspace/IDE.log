@@ -88,3 +88,12 @@ con
 ----------------End of Script----------------
 
 06:17:27 INFO  : Disconnected from the channel tcfchan#3.
+16:00:40 DEBUG : Logs will be stored at 'C:/Users/Aditya/ece385/final_project/ddr3_test/ddr3test/ddr3test_workspace/IDE.log'.
+16:00:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Aditya\ece385\final_project\ddr3_test\ddr3test\ddr3test_workspace\temp_xsdb_launch_script.tcl
+16:00:48 INFO  : XSCT server has started successfully.
+16:00:48 INFO  : plnx-install-location is set to ''
+16:00:48 INFO  : Successfully done setting XSCT server connection channel  
+16:00:48 INFO  : Successfully done setting workspace for the tool. 
+16:00:54 INFO  : Registering command handlers for Vitis TCF services
+16:00:54 INFO  : Platform repository initialization has completed.
+16:00:57 INFO  : Successfully done query RDI_DATADIR 
